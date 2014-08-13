@@ -1,22 +1,22 @@
 <?php 
-function lpp_main_front_html($single_template) {
+function lpp_f_main_front_html($single_template) {
      global $post;
      $lpp_template_select = get_post_meta($post->ID,'lpp_template_select',true);
 
     $lpp_template = dirname( __FILE__ ).'/'.$lpp_template_select;
   
-     if ($post->post_type == 'landingpage') {
+     if ($post->post_type == 'landingpage_f') {
           $single_template = $lpp_template;
      }
      return $single_template;
 }
-add_filter( 'single_template', 'lpp_main_front_html' );
+add_filter( 'single_template', 'lpp_f_main_front_html' );
 
 
 
 ///////////////////////////////////////////////////
 
-function lpp_landing_page_template_select($post){
+function lpp_f_landing_page_template_select($post){
 
     global $post;
 
@@ -101,10 +101,13 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
     font-size: 19px;
 
   }
+  #pr_msg_link{
+    font-size:26px; font-family:sans-serif; font-weight:100;
+  }
 
 </style>
 <div id='lpp_wrapper' class='formLayout_s_l'>
-    <h2>Select an Template and click Update</h2>
+    <h2>Select a Template and click Update</h2>
     <div id='lpp_left'>
             
         Template -1
@@ -116,67 +119,67 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         </label>
 
         Template -3
-        <input  type="radio" id='lpp_select_template3' name='lpp_template_select' value='lpp_template_3.php'
+        <input disabled  type="radio" id='lpp_select_template3' name='lpp_template_select' value='lpp_template_3.php'
         <?php checked( "lpp_template_3.php", $lpp_template_select); ?>
         >
 
-        <label for='lpp_select_template3'>
+        <label disabled for='lpp_select_template3'>
             <img src="<?php echo plugins_url('/img/landingpage_template_3.png',__FILE__); ?>"style='width:200px;height:200px;' >
             
         </label>
 
         Template -5
-        <input type="radio" id='lpp_select_template5' name='lpp_template_select' value='lpp_template_5.php' 
+        <input disabled type="radio" id='lpp_select_template5' name='lpp_template_select' value='lpp_template_5.php' 
         <?php checked( "lpp_template_5.php", $lpp_template_select); ?>
-         >
+          disabled >
 
         <label for='lpp_select_template5'>
             <img src="<?php echo plugins_url('/img/landingpage_template_5.png',__FILE__); ?>"style='width:200px;height:200px;' >
         </label>
 
-         Template -7
-        <input type="radio" id='lpp_select_template7' name='lpp_template_select' value='lpp_template_7.php'
+        Template -7
+        <input  disabled type="radio" id='lpp_select_template7' name='lpp_template_select' value='lpp_template_7.php'
         <?php checked( "lpp_template_7.php", $lpp_template_select); ?>
         >
 
         <label for='lpp_select_template7'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_6.png',__FILE__); ?>" style='width:200px;height:200px;' >
+            <img src="<?php echo plugins_url('/img/landingpage_template_7.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
     </div>
         <div id='lpp_right'>
 
 
         Template -2
-        <input type="radio" id='lpp_select_template2' name='lpp_template_select' value='lpp_template_2.php'
+        <input disabled type="radio" id='lpp_select_template2' name='lpp_template_select' value='lpp_template_2.php'
         <?php checked( "lpp_template_2.php", $lpp_template_select); ?>
         >
 
-        <label for='lpp_select_template2'>
+        <label disabled for='lpp_select_template2'>
             <img src="<?php echo plugins_url('/img/landingpage_template_2.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
 
 
             Template -4
-        <input type="radio" id='lpp_select_template4' name='lpp_template_select' value='lpp_template_4.php'
+        <input disabled type="radio" id='lpp_select_template4' name='lpp_template_select' value='lpp_template_4.php'
         <?php checked( "lpp_template_4.php", $lpp_template_select); ?>
         >
 
-        <label for='lpp_select_template4'>
+        <label disabled for='lpp_select_template4'>
             <img src="<?php echo plugins_url('/img/landingpage_template_4.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
 
 
          Template -6
-        <input type="radio" id='lpp_select_template6' name='lpp_template_select' value='lpp_template_6.php'
+        <input disabled type="radio" id='lpp_select_template6' name='lpp_template_select' value='lpp_template_6.php'
         <?php checked( "lpp_template_6.php", $lpp_template_select); ?>
         >
 
-        <label for='lpp_select_template6'>
+        <label disabled for='lpp_select_template6'>
             <img src="<?php echo plugins_url('/img/landingpage_template_6.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
 
         Template -8
-        <input type="radio" id='lpp_select_template8' name='lpp_template_select' value='lpp_template_8.php'
+        <input disabled type="radio" id='lpp_select_template8' name='lpp_template_select' value='lpp_template_8.php'
         <?php checked( "lpp_template_8.php", $lpp_template_select); ?>
         >
 
@@ -190,6 +193,8 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         
 </div>
     </div>
+
+    <a href="http://web-settler.com/ultimate-landing-page/" id='pr_msg_link'><i>To Unlock all Templates Click Here</i></a>
 
 <div style='width:100%;text-align:center; background:#e3e3e3;height:60px;border-left:5px solid #a7d142;'>
  <?php submit_button('Update');?>

@@ -13,6 +13,11 @@
 		<meta name="keywords" content="<?php echo get_post_meta($post->ID,'lpp_seo_keywords',true); ?>">
 		
 
+			<style type="text/css">
+
+					<?php echo get_post_meta($post->ID,'lpp_custom_styling',true); ?>
+						
+			</style>
 			<script type="text/javascript">
 
 						<?php echo get_post_meta($post->ID,'lpp_custom_js',true); ?>
@@ -31,8 +36,6 @@
 			width: 100%;
 			height: 100%;
 			display: inline-block;
-			margin: 0;
-			padding: 0;
 		}
 		.lpp_section{
 			width: 100%;
@@ -470,11 +473,6 @@
 			color: <?php echo get_post_meta($post->ID,'lpp_cta_c',true); ?>;
 		}
 	}
-
-
-		
-			<?php echo get_post_meta($post->ID,'lpp_custom_styling',true); ?>
-
 
 
 

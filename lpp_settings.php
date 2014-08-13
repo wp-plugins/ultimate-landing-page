@@ -12,29 +12,29 @@
 
 
 
-add_action('add_meta_boxes','lpp_main_ui_metabox');
+add_action('add_meta_boxes','lpp_f_main_ui_metabox');
 
-  function lpp_main_ui_metabox(){
+  function lpp_f_main_ui_metabox(){
 
-    add_meta_box('lpp_select_landingpage_template','Select Landing Page Template','lpp_landing_page_template_select','Landingpage','normal','high');
+    add_meta_box('lpp_select_landingpage_template','Select Landing Page Template','lpp_f_landing_page_template_select','Landingpage_f','normal','high');
 
 
-    add_meta_box('lpp_main_ui','Edit Landing page Template','lpp_landing_page_template_edit','Landingpage','normal','low');
+    add_meta_box('lpp_main_ui','Edit Landing page Template','lpp_f_landing_page_template_edit','Landingpage_f','normal','low');
     
-    add_meta_box('lpp_main_settings' ,'Color Settings','lpp_main_front_end_settings', 'Landingpage','normal','low');
-    
-    add_meta_box('lpp_custom_css' ,'Custom  CSS/JS','lpp_custom_css', 'Landingpage','normal','low');
+    add_meta_box('lpp_main_settings' ,'Color Settings','lpp_f_main_front_end_settings', 'Landingpage_f','normal','low');
    
-    add_meta_box('lpp_mail_chimp' ,'Mail Chimp','lpp_mail_chimp', 'Landingpage','normal','low');
+    //add_meta_box('lpp_mail_chimp' ,'Mail Chimp','lpp_f_mail_chimp', 'Landingpage_f','normal','low');
 
-    add_meta_box('lpp_seo_set' ,'Landing Page SEO','lpp_seo_set', 'Landingpage','normal','low');
+    //add_meta_box('lpp_custom_css' ,'Custom  CSS/JS','lpp_f_custom_css', 'Landingpage_f','normal','low');
+
+   // add_meta_box('lpp_seo_set' ,'Landing Page SEO','lpp_f_seo_set', 'Landingpage_f','normal','low');
 
   }
  
 
 //////////// META BOX 1  STARTS HERE!!!!! //////////////
 
-  function lpp_landing_page_template_edit($post){
+  function lpp_f_landing_page_template_edit($post){
     // $post is already set, and contains an object: the WordPress post
     global $post;
  //////////////////////////////////////////////////////////////////////////
@@ -129,17 +129,16 @@ add_action('add_meta_boxes','lpp_main_ui_metabox');
     ?>
          <p>
         <label for>Select Template To Edit:</label>
-        <select name="lpp_fe_template_select" id>
-            <option value="select.php" <?php selected('phuf_1.php', $lpp_fe_template_select); ?> >Choose!</option>
+        <select name="lpp_fe_template_select" >
+            <option value="select.php" <?php selected('select.php', $lpp_fe_template_select); ?> >Choose!</option>
             <option value="options_lpp_template_1.php" <?php selected('options_lpp_template_1.php', $lpp_fe_template_select); ?> >Template-1</option>
-            <option value="options_lpp_template_2.php" <?php selected('options_lpp_template_2.php', $lpp_fe_template_select); ?> >Template-2</option>
-            <option value="options_lpp_template_3.php" <?php selected('options_lpp_template_3.php', $lpp_fe_template_select); ?> >Template-3</option>
-            <option value="options_lpp_template_4.php" <?php selected('options_lpp_template_4.php', $lpp_fe_template_select); ?> >Template-4</option>
-            <option value="options_lpp_template_5.php" <?php selected('options_lpp_template_5.php', $lpp_fe_template_select); ?> >Template-5</option>
-            <option value="options_lpp_template_6.php" <?php selected('options_lpp_template_6.php', $lpp_fe_template_select); ?> >Template-6</option>
-            <option value="options_lpp_template_7.php" <?php selected('options_lpp_template_7.php', $lpp_fe_template_select); ?> >Template-7</option>
-            <option value="options_lpp_template_8.php" <?php selected('options_lpp_template_8.php', $lpp_fe_template_select); ?> >Template-8</option>
-
+            <option  disabled >Template-2</option>
+            <option  disabled >Template-3</option>
+            <option  disabled >Template-4</option>
+            <option  disabled >Template-5</option>
+            <option  disabled >Template-6</option>
+            <option  disabled >Template-7</option>
+            <option  disabled >Template-8</option>
         </select>
         
     </p>
@@ -166,12 +165,11 @@ include ($lpp_fe_template_select);
   #lpp_main_settings,#lpp_select_landingpage_template,#lpp_custom_css,#lpp_main_ui{
     border-top:5px solid #75c5ff;
   }
-  #lpp_main_ui{
-    height: 90%;
-  }
+ 
 </style>
-<div style='width:95%;margin-left:2.5%; text-align:center; background:#e3e3e3;height:60px;border-left:5px solid #a7d142;margin-top:50px;'>
+<div style='width:95%;margin-left:2.5%; text-align:center; background:#e3e3e3;height:60px;border-left:5px solid #a7d142;margin-top:0;'>
  <?php submit_button('Update');?>
+ <a href="http://web-settler.com/ultimate-landing-page/" id='pr_msg_link' style='float:left; font-size:20px; margin:20px 0 0 10px;'><i>Get more Amazing Features and Templates Click Here</i></a>
 </div>
 
 <?php
@@ -202,9 +200,9 @@ include ($lpp_fe_template_select);
 
 
 
-  add_action('save_post','lpp_save_meta');
+  add_action('save_post','lpp_f_save_meta');
 
-  function lpp_save_meta($post_id){
+  function lpp_f_save_meta($post_id){
     
      // Bail if we're doing an auto save
     if( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) return;
@@ -459,13 +457,11 @@ include 'lpp_basic_settings.php';
 
 include 'select_template.php';
 
-include 'lpp_custom_scripts.php';
+//include 'lpp_custom_scripts.php';
 
-include 'lpp_mail_chimp_int.php';
+//include 'lpp_mail_chimp_int.php';
 
-include 'lpp_seo.php';
-
-//include 'config.inc.php';
+//include 'lpp_seo.php';
 
 
 

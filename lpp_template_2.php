@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<! DOCTYPE html>
 <html>
 	<head>
 		<title><?php echo the_title(); ?></title>
@@ -13,6 +13,12 @@
 		<meta name="keywords" content="<?php echo get_post_meta($post->ID,'lpp_seo_keywords',true); ?>">
 
 
+
+				<style type="text/css">
+
+						<?php echo get_post_meta($post->ID,'lpp_custom_styling',true); ?>
+							
+				</style>
 				<script type="text/javascript">
 
 							<?php echo get_post_meta($post->ID,'lpp_custom_js',true); ?>
@@ -30,7 +36,6 @@
 	width:100%;
 	min-width: 700px;
 	height: 800px;
-	margin: 0px;
 	
 }
 #lpp_content{
@@ -193,11 +198,6 @@
 #lpp_f_h2{
 	color: <?php echo get_post_meta($post->ID,'lpp_h2_c',true); ?>;
 }
-
-		
-
-			<?php echo get_post_meta($post->ID,'lpp_custom_styling',true); ?>
-
 
 
 

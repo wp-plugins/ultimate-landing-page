@@ -1,7 +1,7 @@
 ===Ultimate Landing Page===
 Contributors:umarbajwa,websettler
 Donate link: http://web-settler.com/
-Tags:page builder,landing pages,subscribe forms,mail chimp,mail chimp form,subscribe landing page,landing page builder,landing pages,landingpage,landingpages,subscribe,email landing page,web-settler,ultimate landing page,parralax,slider,posts,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms,
+Tags:page builder,landing pages,subscribe forms,mail chimp,mail chimp form,subscribe landing page,landing page builder,landing pages,landingpage,landingpages,subscribe,email landing page,web-settler,ultimate landing page,parralax,slider,posts,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b test, a b testing, a/b test, a/b testing, analytics, click tracking, coming soon page, conversion pages, cpa, email list, free landing page templates, goal tracking, inbound marketing, inbound now, landing page, landing pages, list building, maintenance page, splash pages, split testing, squeeze page,
 Requires at least:3.0 
 Tested up to: 3.9.2
 Stable tag:1.0
@@ -35,6 +35,10 @@ If you are a developer or designer and want to tweak design or enhance usability
 
 
 
+<a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
+
+
+
 
 
 
@@ -44,9 +48,12 @@ If you are a developer or designer and want to tweak design or enhance usability
  == Installation ==
 * Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
+<a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
+
 
 
 
 == Screenshots ==
 Coming Soon!
 
+<a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>

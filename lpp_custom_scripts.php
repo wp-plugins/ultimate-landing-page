@@ -2,7 +2,7 @@
 
 
 
-function lpp_custom_css($post){
+function lpp_f_custom_css($post){
 
 
 	$lpp_custom_styling = get_post_meta($post->ID,'lpp_custom_styling',true);

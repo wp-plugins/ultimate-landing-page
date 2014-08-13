@@ -1,6 +1,6 @@
 <?php
 
-function lpp_main_front_end_settings($post){
+function lpp_f_main_front_end_settings($post){
 	//
 	//  Background Colors 
 	//

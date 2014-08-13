@@ -13,8 +13,11 @@
 
 		<meta name="keywords" content="<?php echo get_post_meta($post->ID,'lpp_seo_keywords',true); ?>">
 
+		<style type="text/css">
 
-
+					<?php echo get_post_meta($post->ID,'lpp_custom_styling',true); ?>
+						
+			</style>
 			<script type="text/javascript">
 
 						<?php echo get_post_meta($post->ID,'lpp_custom_js',true); ?>
@@ -28,8 +31,6 @@
 			min-width:1050px;
 			height: 980px;
 			text-align: center;
-			margin: 0;
-			padding: 0;
 		}
 		h1,h2,h3,h4,h5,h6{
 			font-family: 'museo-slab', sans-serif;
@@ -137,10 +138,6 @@
 		#lpp_sub_sect2_right{
 			height: 400px;
 		}
-
-
-			<?php echo get_post_meta($post->ID,'lpp_custom_styling',true); ?>
-
 
 
 

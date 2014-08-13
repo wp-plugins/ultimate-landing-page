@@ -4,7 +4,7 @@
 
 //////////// CUSTOM POST TYPE STARTS HERE!!!!! //////////////
 
-function lpp_custom_post_type(){
+function lpp_f_custom_post_type(){
   $labels = array(
     'name' => _x('Landing Page','post type general name'),
     'singular_name' => _x('Landing Page','post type singular name'),
@@ -29,16 +29,16 @@ function lpp_custom_post_type(){
     'supports' => array('title','custom_fields'),
     'has_archive' => true,
     'capability_type' => 'page',
-    'query_var' => 'lpp_landing_page',
+    'query_var' => 'lpp_f_landing_page',
     'menu_icon' => 'dashicons-welcome-add-page',
     'show_in_menu' => true,
     );
 
 
-  register_post_type('landingpage',$args);
+  register_post_type('landingpage_f',$args);
 }
 
-add_action('init','lpp_custom_post_type');
+add_action('init','lpp_f_custom_post_type');
 
 //////////// CUSTOM POST TYPE ENDS HERE!!!!! ////////////// /
                                                         // //   / 
@@ -55,20 +55,6 @@ add_action('init','lpp_custom_post_type');
 
 /////////////////////////// Removing post name from perma link ///////////////////////////
 
-function custom_remove_cpt_slug( $post_link, $post, $leavename ) {
- 
-    if ( 'landingpage' != $post->post_type || 'publish' != $post->post_status ) {
-        return $post_link;
-    }
- 
-    $post_link = str_replace( '/' . $post->post_type . '/', '/', $post_link );
- 
-    return $post_link;
-
-
-}
-add_filter( 'post_type_link', 'custom_remove_cpt_slug', 10, 3 );
-
 
 /**
  * Some hackery to have WordPress match postname to any of our public post types
@@ -76,7 +62,7 @@ add_filter( 'post_type_link', 'custom_remove_cpt_slug', 10, 3 );
  * Typically core only accounts for posts and pages where the slug is /post-name/
  */
 
-function lpp_custom_parse_request_tricksy( $query ) {
+function lpp_f_custom_parse_request_tricksy( $query ) {
  
     // Only noop the main query
     if ( ! $query->is_main_query() )
@@ -89,18 +75,18 @@ function lpp_custom_parse_request_tricksy( $query ) {
  
     // 'name' will be set if post permalinks are just post_name, otherwise the page rule will match
     if ( ! empty( $query->query['name'] ) ) {
-        $query->set( 'post_type', array( 'post', 'landingpage', 'page' ) );
+        $query->set( 'post_type', array( 'post', 'landingpage_f', 'page' ) );
     }
 }
-add_action( 'pre_get_posts', 'lpp_custom_parse_request_tricksy' );
+add_action( 'pre_get_posts', 'lpp_f_custom_parse_request_tricksy' );
 
 
 
 
 
-add_action("load-post-new.php","count_user_posts_by_type");
+add_action("load-post-new.php","lpp_f_count");
 
-    function count_user_posts_by_type( $userid, $post_type = 'landingpage' ) {
+    function lpp_f_count( $userid, $post_type = 'landingpage_f' ) {
     global $wpdb;
 
     $userid = get_current_user_id();
@@ -111,7 +97,7 @@ add_action("load-post-new.php","count_user_posts_by_type");
 
     $screen = get_current_screen();
 
-    if (current_user_can( 'edit_posts') and $screen->post_type === 'landingpage') { 
+    if (current_user_can( 'edit_posts') and $screen->post_type === 'landingpage_f') { 
         //Is  admin and all users - so impose the limit
         if($count>=3)
             header("Location: /wp-content/plugins/ultimate-landing-page/phuf.php");

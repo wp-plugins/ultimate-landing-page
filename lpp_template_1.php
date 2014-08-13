@@ -16,7 +16,10 @@
 
 
 
-				
+				<style type="text/css">
+							<?php echo get_post_meta($post->ID,'lpp_custom_styling',true); ?>
+								
+				</style>
 				<script type="text/javascript">
 
 						<?php echo get_post_meta($post->ID,'lpp_custom_js',true); ?>
@@ -35,8 +38,9 @@
 		body{
 			width: 100%;
 			height: 100%;
+			margin: 0;
+			padding: 0;
 			display: inline-block;
-			margin: 0px;
 		}
 
 		@media screen and (min-width: 680px) {
@@ -44,7 +48,6 @@
 			width: 100%;
 			text-align: center;
 			display: inline-block;
-
 		}
 		.lpp_h1{
 			 font-size: 34px;
@@ -77,9 +80,11 @@
 			background: <?php echo get_post_meta($post->ID,'lpp_cta_bg',true); ?>;
 		}
 		.lpp_benefit{
-			width: 29%;
+			margin-top: 5%;
+			margin-bottom: 5%;
+			width: 30%;
 			float: left;
-			margin: 3% 2% 0 2%;
+			margin-left: 2%;
 		}
 
 		#lpp_section_1,body,html{
@@ -96,13 +101,10 @@
 			float: left;
 		}
 		#lpp_sub_sect_left{
-			width: 50%;
+			width: 53%;
 			height: 70%;
 			float: left;
 			margin-top: 5%;
-			text-align: center;
-			margin-left: 1%;
-
 		}
 		#lpp_sub_sect_right{
 			width: 47%;
@@ -120,14 +122,13 @@
 		#lpp_main_cta{
 			border: none;
 			height: 10%;
-			width:60%;
+			padding:15px 30px 15px 30px;
 			font-size: 29px;
 		}
 
 		#lpp_testimonial{
 			width: 100%;
 			height: 20%;
-
 
 		}
 		
@@ -140,10 +141,6 @@
 			height: 8%;
 			border: none;
 			font-size: 46px;
-		}
-		#main_feature_img{
-			width: 100%;
-			height: 50%;
 		}
 
 
@@ -209,14 +206,12 @@
 			width: 90%;
 			height: 50%;
 			margin-top: 5%;
-			text-align: center;
 
 		}
 		#lpp_sub_sect_right{
 			width:100%;
 			height: 50%;
 			margin-top: 1%;
-			margin-left: 5%;
 		}
 		
 		
@@ -245,8 +240,6 @@
 		}
 		#main_feature_img{
 			width: 100%;
-			height:50%;
-			margin-left: 5.5%;
 		}
 
 
@@ -290,8 +283,6 @@
 
 		}
 
-		<?php echo get_post_meta($post->ID,'lpp_custom_styling',true); ?>
-
 
 
 
@@ -312,7 +303,7 @@
 				<img src="" id='main_feature_img'
 				style='width:100%; height:60%;'> >    
 				!--> 
-				<embed src="<?php echo get_post_meta($post->ID,'lpp_add_img_1',true); ?>" style='' id='main_feature_img'>
+				<embed src="<?php echo get_post_meta($post->ID,'lpp_add_img_1',true); ?>" style='width:100%; height:60%;'>
 			</div>
 			<div id='lpp_sub_sect_right'>
 				<p id='lpp_main_content' class='lpp_p'>

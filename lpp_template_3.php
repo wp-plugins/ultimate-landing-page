@@ -13,6 +13,11 @@
 		<meta name="keywords" content="<?php echo get_post_meta($post->ID,'lpp_seo_keywords',true); ?>">
 
 
+					<style type="text/css">
+
+							<?php echo get_post_meta($post->ID,'lpp_custom_styling',true); ?>
+								
+					</style>
 					<script type="text/javascript">
 
 								<?php echo get_post_meta($post->ID,'lpp_custom_js',true); ?>
@@ -32,7 +37,6 @@
 			width: 100%;
 			height: 100%;
 			display: inline-block;
-			margin: 0px;
 		}
 
 		@media screen and (min-width: 680px) {
@@ -74,8 +78,7 @@
 		.lpp_benefit{
 			width: 30.2%;
 			float: left;
-			margin-left:2.5%;
-			margin-bottom:3%;  
+			margin-left:2.5%; 
 		}
 
 		#lpp_section_1,body,html{
@@ -119,8 +122,7 @@
 
 		#lpp_testimonial{
 			width: 100%;
-			margin-bottom: 5%;
-			margin-top: 5%; 
+			height: 20%;
 
 		}
 		
@@ -278,10 +280,6 @@
 		}
 
 
-			<?php echo get_post_meta($post->ID,'lpp_custom_styling',true); ?>
-
-
-
 
 
 
@@ -359,7 +357,7 @@
 				<h1 id='lpp_f_h1' class='lpp_h1'>
 					<?php echo  get_post_meta( $post->ID , 'lpp_final_sub_h2' , true ); ?>
 				</h1>
-				<a href="<?php echo  get_post_meta( $post->ID , 'lpp_cta_url' , true ); ?> "><button id='lpp_cta_bottom' class='lpp_cta'><?php echo  get_post_meta( $post->ID , 'lpp_final_cta' , true ); ?></button></a>
+				<a href="<?php echo  get_post_meta( $post->ID , 'lpp_cta_url' , true ); ?> "><button id='lpp_cta_bottom' class='lpp_cta'><?php echo  get_post_meta( $post->ID , 'lpp_main_cta' , true ); ?></button></a>
 
 			</div>
 		</div>

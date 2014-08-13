@@ -1,5 +1,5 @@
 <?php
-function lpp_seo_set($post){
+function lpp_f_seo_set($post){
 
 	 global $post;
 
