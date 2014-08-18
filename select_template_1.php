@@ -38,24 +38,17 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
 }
 
 #lpp_left{
-    width: 20%;
+    width: 40%;
     display: inline-block;
     float: left;
     margin-right: 100px;
 
 }
 #lpp_right{
-    width: 20%;
+    width: 40%;
     display: inline-block;
     float: left;
     
-}
-
-#lpp_row_3{
-    width: 20%;
-    display: inline-block;
-    float: left;
-    margin-left: 80px;
 }
 
 
@@ -80,7 +73,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
     .formLayout_s_l input{
         display: block;
         float: left;
-        margin-right: 15px;
+        margin-right: 40px;
         margin-left: 10px;
 
 
@@ -107,6 +100,9 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
     margin-right: 50px;
     font-size: 19px;
 
+  }
+  #pr_msg_link{
+    font-size:26px; font-family:sans-serif; font-weight:100;
   }
 
 </style>
@@ -191,28 +187,14 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
             <img src="<?php echo plugins_url('/img/landingpage_template_8.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
 
-      
-</div>
-<div id='lpp_row_3'>
-    Template -9
-        <input  type="radio" id='lpp_select_template9' name='lpp_template_select' value='lpp_template_9.php'
-        <?php checked( "lpp_template_9.php", $lpp_template_select); ?>
-        >
 
-        <label for='lpp_select_template9'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_9.png',__FILE__); ?>" style='width:200px;height:200px;' >
-        </label>
 
-         Template -10
-        <input disabled type="radio" id='lpp_select_template10' name='lpp_template_select' value='lpp_template_10.php'
-        <?php checked( "lpp_template_10.php", $lpp_template_select); ?>
-        >
-
-        <label for='lpp_select_template10'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_10.png',__FILE__); ?>" style='width:200px;height:200px;' >
-        </label>
+        
+        
 </div>
     </div>
+
+    <a href="http://web-settler.com/ultimate-landing-page/" id='pr_msg_link'><i>To Unlock all Templates Click Here</i></a>
 
 <div style='width:100%;text-align:center; background:#e3e3e3;height:60px;border-left:5px solid #a7d142;'>
  <?php submit_button('Update');?>

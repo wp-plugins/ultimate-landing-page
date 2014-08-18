@@ -23,11 +23,11 @@ add_action('add_meta_boxes','lpp_f_main_ui_metabox');
     
     add_meta_box('lpp_main_settings' ,'Color Settings','lpp_f_main_front_end_settings', 'Landingpage_f','normal','low');
    
-    //add_meta_box('lpp_mail_chimp' ,'Mail Chimp','lpp_f_mail_chimp', 'Landingpage_f','normal','low');
+    add_meta_box('lpp_mail_chimp' ,'Mail Chimp','lpp_f_mail_chimp', 'Landingpage_f','normal','low');
 
     //add_meta_box('lpp_custom_css' ,'Custom  CSS/JS','lpp_f_custom_css', 'Landingpage_f','normal','low');
 
-   // add_meta_box('lpp_seo_set' ,'Landing Page SEO','lpp_f_seo_set', 'Landingpage_f','normal','low');
+    //add_meta_box('lpp_seo_set' ,'Landing Page SEO','lpp_f_seo_set', 'Landingpage_f','normal','low');
 
   }
  
@@ -132,6 +132,7 @@ add_action('add_meta_boxes','lpp_f_main_ui_metabox');
         <select name="lpp_fe_template_select" >
             <option value="select.php" <?php selected('select.php', $lpp_fe_template_select); ?> >Choose!</option>
             <option value="options_lpp_template_1.php" <?php selected('options_lpp_template_1.php', $lpp_fe_template_select); ?> >Template-1</option>
+            <option value="options_lpp_template_9.php" <?php selected('options_lpp_template_9.php', $lpp_fe_template_select); ?>  >Template-9</option>
             <option  disabled >Template-2</option>
             <option  disabled >Template-3</option>
             <option  disabled >Template-4</option>
@@ -139,6 +140,7 @@ add_action('add_meta_boxes','lpp_f_main_ui_metabox');
             <option  disabled >Template-6</option>
             <option  disabled >Template-7</option>
             <option  disabled >Template-8</option>
+            <option  disabled >Template-10</option>            
         </select>
         
     </p>
@@ -459,7 +461,7 @@ include 'select_template.php';
 
 //include 'lpp_custom_scripts.php';
 
-//include 'lpp_mail_chimp_int.php';
+include 'lpp_mail_chimp_int.php';
 
 //include 'lpp_seo.php';
 

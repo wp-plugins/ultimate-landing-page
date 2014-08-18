@@ -1,5 +1,7 @@
 <?php
 function lpp_f_mail_chimp($post){
+	global $post;
+
 
 
      $lpp_mailchimp_listid = get_post_meta($post->ID,'lpp_mailchimp_listid',true);

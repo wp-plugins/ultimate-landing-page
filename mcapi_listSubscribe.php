@@ -23,13 +23,7 @@ if ($api->errorCode){
 	echo "\tCode=".$api->errorCode."\n";
 	echo "\tMsg=".$api->errorMessage."\n";
 } else {
-    echo "Subscribed - look for the confirmation email!\n";
-
-   ?>
-
-   <a href="javascript:javascript:history.go(-1)">Click here to go back to previous page</a>
-
-   <?php
+    include 'subscribe_msg.php';
 }
 
  
