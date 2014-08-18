@@ -119,7 +119,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         <?php checked( "lpp_template_1.php", $lpp_template_select); ?>
         >
         <label for='lpp_select_template1'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_1.png',__FILE__); ?>" style='width:200px;height:200px;' >
+            <img src="<?php echo plugins_url('/imgs/landingpage_template_1.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
 
         Template -3
@@ -128,7 +128,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         >
 
         <label disabled for='lpp_select_template3'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_3.png',__FILE__); ?>"style='width:200px;height:200px;' >
+            <img src="<?php echo plugins_url('/imgs/landingpage_template_3.png',__FILE__); ?>"style='width:200px;height:200px;' >
             
         </label>
 
@@ -138,7 +138,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
           disabled >
 
         <label for='lpp_select_template5'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_5.png',__FILE__); ?>"style='width:200px;height:200px;' >
+            <img src="<?php echo plugins_url('/imgs/landingpage_template_5.png',__FILE__); ?>"style='width:200px;height:200px;' >
         </label>
 
         Template -7
@@ -147,7 +147,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         >
 
         <label for='lpp_select_template7'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_7.png',__FILE__); ?>" style='width:200px;height:200px;' >
+            <img src="<?php echo plugins_url('/imgs/landingpage_template_7.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
     </div>
         <div id='lpp_right'>
@@ -159,7 +159,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         >
 
         <label disabled for='lpp_select_template2'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_2.png',__FILE__); ?>" style='width:200px;height:200px;' >
+            <img src="<?php echo plugins_url('/imgs/landingpage_template_2.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
 
 
@@ -169,7 +169,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         >
 
         <label disabled for='lpp_select_template4'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_4.png',__FILE__); ?>" style='width:200px;height:200px;' >
+            <img src="<?php echo plugins_url('/imgs/landingpage_template_4.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
 
 
@@ -179,7 +179,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         >
 
         <label disabled for='lpp_select_template6'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_6.png',__FILE__); ?>" style='width:200px;height:200px;' >
+            <img src="<?php echo plugins_url('/imgs/landingpage_template_6.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
 
         Template -8
@@ -188,7 +188,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         >
 
         <label for='lpp_select_template8'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_8.png',__FILE__); ?>" style='width:200px;height:200px;' >
+            <img src="<?php echo plugins_url('/imgs/landingpage_template_8.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
 
       
@@ -200,7 +200,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         >
 
         <label for='lpp_select_template9'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_9.png',__FILE__); ?>" style='width:200px;height:200px;' >
+            <img src="<?php echo plugins_url('/imgs/landingpage_template_9.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
 
          Template -10
@@ -209,7 +209,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         >
 
         <label for='lpp_select_template10'>
-            <img src="<?php echo plugins_url('/img/landingpage_template_10.png',__FILE__); ?>" style='width:200px;height:200px;' >
+            <img src="<?php echo plugins_url('/imgs/landingpage_template_10.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
 </div>
     </div>
