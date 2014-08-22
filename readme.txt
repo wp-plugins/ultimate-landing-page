@@ -54,6 +54,17 @@ If you are a developer or designer and want to tweak design or enhance usability
 
 
 == Screenshots ==
-Coming Soon!
 
+1. Screen Shot -1
+2. Screen Shot -2
+3. Screen Shot -3
+4. Screen Shot -4
+5. Screen Shot -5
+6. Screen Shot -6
+7. Screen Shot -7
+8. Screen Shot -8
+9. Screen Shot -9
+10. Screen Shot -10
+11. Screen Shot -11
+12. Screen Shot -12
 <a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
