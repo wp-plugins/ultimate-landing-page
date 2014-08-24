@@ -195,7 +195,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
 </div>
 <div id='lpp_row_3'>
     Template -9
-        <input  type="radio" id='lpp_select_template9' name='lpp_template_select' value='lpp_template_9.php'
+        <input disabled type="radio" id='lpp_select_template9' name='lpp_template_select' value='lpp_template_9.php'
         <?php checked( "lpp_template_9.php", $lpp_template_select); ?>
         >
 
