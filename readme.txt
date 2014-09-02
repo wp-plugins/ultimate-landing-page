@@ -1,8 +1,8 @@
 ===Ultimate Landing Page===
 Contributors:umarbajwa,websettler
 Donate link: http://web-settler.com/
-Tags:page builder,landing pages,subscribe forms,mail chimp,mail chimp form,subscribe landing page,landing page builder,landing pages,landingpage,landingpages,subscribe,email landing page,web-settler,ultimate landing page,parralax,slider,posts,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b test, a b testing, a/b test, a/b testing, analytics, click tracking, coming soon page, conversion pages, cpa, email list, free landing page templates, goal tracking, inbound marketing, inbound now, landing page, landing pages, list building, maintenance page, splash pages, split testing, squeeze page,
-Requires at least:3.0 
+Tags:page builder,landing pages,subscribe forms,mail chimp,mail chimp form,subscribe landing page,landing page builder,landing pages,landingpage,landingpages,subscribe,email landing page,web-settler,ultimate landing page,parralax,slider,posts,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b test, a b testing, a/b test, a/b testing, analytics, click tracking, coming soon page, conversion pages, cpa, email list, free landing page templates, goal tracking, inbound marketing, inbound now, landing page, landing pages, list building, maintenance page, splash pages, split testing, squeeze page,widget,post,page,plugin,admin,twitter,images,shortcode,mailchimp
+Requires at least:3.2 
 Tested up to: 3.9.2
 Stable tag:1.0
 License:GPLv2 
@@ -25,7 +25,7 @@ Our specifically designed templates  Boost your sales and conversions instantly.
 
 With our collection of landing page templates your landing pages will look as good as they perform. Designed to maximize your conversions. Our landing page templates offers complete flexibility and are easily customizable.
 
-<strong> Chimp Forms :</strong>
+<strong>MailChimp Forms :</strong>
 
 Ultimate Landing Page Plugin Integrate Beautiful  Mail Chimp Forms  for your marketing and maximize your conversions instantly. Capture leads on your landing page and send them directly to MailChimp.
 
@@ -46,7 +46,11 @@ If you are a developer or designer and want to tweak design or enhance usability
 
 
  == Installation ==
+* Use Wordpress Installer to install the plugin or
 * Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
+* Activate the plugin.
+* Select a template and start editing it.
+* After Publishing your landing page will be ready for traffic.
 
 <a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
 
@@ -55,16 +59,4 @@ If you are a developer or designer and want to tweak design or enhance usability
 
 == Screenshots ==
 
-1. Screen Shot -1
-2. Screen Shot -2
-3. Screen Shot -3
-4. Screen Shot -4
-5. Screen Shot -5
-6. Screen Shot -6
-7. Screen Shot -7
-8. Screen Shot -8
-9. Screen Shot -9
-10. Screen Shot -10
-11. Screen Shot -11
-12. Screen Shot -12
-<a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
+<a href='http://web-settler.com/ultimate-landing-page/'> <strong>For Screenshots and more information Click Here</strong> </a>
