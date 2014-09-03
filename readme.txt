@@ -39,10 +39,12 @@ If you are a developer or designer and want to tweak design or enhance usability
 
 
 
+== Screenshots ==
 
 
 
-
+1. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
+2. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
 
 
  == Installation ==
@@ -55,11 +57,3 @@ If you are a developer or designer and want to tweak design or enhance usability
 <a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
 
 
-
-
-== Screenshots ==
-
-<a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
-
-1. Screenshot-1
-2. Screenshot 2
