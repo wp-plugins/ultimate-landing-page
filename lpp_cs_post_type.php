@@ -99,10 +99,8 @@ add_action("load-post-new.php","lpp_f_count");
 
     if (current_user_can( 'edit_posts') and $screen->post_type === 'landingpage_f') { 
         //Is  admin and all users - so impose the limit
-        if($count>=3)
+        if($count>=2)
             header("Location: /wp-content/plugins/ultimate-landing-page/phuf.php");
-            
-
         }
     }
 
