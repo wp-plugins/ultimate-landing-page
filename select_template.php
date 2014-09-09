@@ -216,6 +216,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
 
 <div style='width:100%;text-align:center; background:#e3e3e3;height:60px;border-left:5px solid #a7d142;'>
  <?php submit_button('Update');?>
+ <a href="http://web-settler.com/ultimate-landing-page/" id='pr_msg_link' style='float:left; font-size:20px; margin:20px 0 0 10px;'><i>Unlock All Templates and get more amazing features Click Here</i></a>
 </div>
 
 
