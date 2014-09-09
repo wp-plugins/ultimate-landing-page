@@ -18,8 +18,7 @@ function lpp_f_custom_post_type(){
     'not_found' => __('No Landing Page found'),
     'not_found_in_trash' => __('No Landing Page found in trash'),
     'parent_item_colon' => "",
-    'menu_name' => 'Landing Page',
-
+    'menu_name' => 'Landing Page'
     );
   $args = array(
     'labels' => $labels,
@@ -31,7 +30,7 @@ function lpp_f_custom_post_type(){
     'capability_type' => 'page',
     'query_var' => 'lpp_f_landing_page',
     'menu_icon' => 'dashicons-welcome-add-page',
-    'show_in_menu' => true,
+    'show_in_menu' => true
     );
 
 
@@ -99,8 +98,10 @@ add_action("load-post-new.php","lpp_f_count");
 
     if (current_user_can( 'edit_posts') and $screen->post_type === 'landingpage_f') { 
         //Is  admin and all users - so impose the limit
-        if($count>=2)
+        if($count>=3)
             header("Location: /wp-content/plugins/ultimate-landing-page/phuf.php");
+            
+
         }
     }
 
