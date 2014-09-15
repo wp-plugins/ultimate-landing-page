@@ -5,7 +5,7 @@ Description: Create Beautiful Landing Pages in minutes
 Author: umarbajwa
 Plugin URI:http://web-settler.com/ultimate-landing-page/
 Author URI :http://web-settler.com/
-Version:1.0
+Version:1.1
 Donate link: http://web-settler.com/ultimate-landing-page/ 
 */
 include 'lpp_settings.php';
