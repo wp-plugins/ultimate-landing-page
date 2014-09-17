@@ -350,7 +350,6 @@
 
 			</div>
 			<div id='lpp_benefit_1' class='lpp_benefit'>
-				<img src="<?php echo get_post_meta($post->ID,'lpp_add_img_2',true);?>">
 				<h3 class='lpp_h3' id='lpp_benefit_h3'>
 					<?php echo  get_post_meta( $post->ID , 'lpp_benefit_1_content_title' , true ); ?>
 				</h3>
@@ -359,7 +358,6 @@
 				</p>
 			</div>
 			<div id='lpp_benefit_2' class='lpp_benefit'>
-				<img src="<?php echo get_post_meta($post->ID,'lpp_add_img_3',true);?>">
 				<h3 class='lpp_h3' id='lpp_benefit_h3'>
 					<?php echo  get_post_meta( $post->ID , 'lpp_benefit_2_content_title' , true ); ?>
 				</h3>
@@ -368,7 +366,6 @@
 				</p>
 			</div>
 			<div id='lpp_benefit_3' class='lpp_benefit'>
-				<img src="<?php echo get_post_meta($post->ID,'lpp_add_img_4',true);?>">
 				<h3 class='lpp_h3' id='lpp_benefit_h3'>
 					<?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content_title' , true ); ?>
 				</h3>

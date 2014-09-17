@@ -29,9 +29,16 @@ With our collection of landing page templates your landing pages will look as go
 
 Ultimate Landing Page Plugin Integrate Beautiful  Mail Chimp Forms  for your marketing and maximize your conversions instantly. Capture leads on your landing page and send them directly to MailChimp.
 
+<strong> Set Landing Page as Front Page/Home Page :</strong>
+Set Landing page as home page or front page to target all the traffic on your site. Or for coming soon pages.Capture your leads and sales from front page.
+
 <strong> Custom CSS/Js :</strong>
 
 If you are a developer or designer and want to tweak design or enhance usability, then there is no need to mess with plugin files because Ultimate Landing Page plugin offers  Custom CSS/JS  feature  and customize whatever you want.
+
+<strong> Coming Soon Pages :</strong>
+
+Create beautiful Coming soon pages easily and publish them immediately,  Or set a schedule   for publishing.
 
 
 

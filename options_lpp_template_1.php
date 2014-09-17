@@ -9,13 +9,11 @@ body{
   text-align: center;
   width: 95%;
   border: 2px solid black;
-  height: 15%;
   display: inline-block;
 }
 #lpp_center{
   width: 95%;
   border: 2px solid black;
-  height:70%;
   display: inline-block;
 }
 #lpp_center_left{
@@ -91,15 +89,9 @@ body{
 
 #lpp_testimonial_left{
   width:100%;
-  height:75%;
   float: left;
 }
 
-#lpp_testimonial_right{
-  width:50%;
-  float: right;
-  margin-top: 2%;
-}
 
 #lpp_benefit_sect{
   width: 95%;
@@ -144,7 +136,6 @@ body{
 
   width: 95%;
   border: 2px solid black;
-  height:10%;
   display: inline-block;
 
 }
@@ -221,8 +212,6 @@ body{
       </div>
       <div id="lpp_benefit_sect">
         <div id="lpp_benefit_1">
-          <input type='text' id='lpp_add_img_2' name='lpp_add_img_2' value='<?php echo $lpp_add_img_2; ?>' style='width:240px; height:30px; border:2px dashed orange; text-align:center;' placeholder='Enter benefit Thumbnail URL'/>
-          <img src="<?php echo get_post_meta($post->ID,'lpp_add_img_2',true);?>" style='width:250px;height:100px;'>
           <h3 class="lpp_h">
             <input type='text' id='lpp_benefit_1_content_title' name='lpp_benefit_1_content_title' value='<?php echo $lpp_benefit_1_content_title; ?>' style='width:190px; height:30px; border:2px dashed black; text-align:center;' placeholder='Enter benefit title here.'/>
           </h3>
@@ -231,8 +220,6 @@ body{
           </p>
         </div>
         <div id="lpp_benefit_2">
-          <input type='text' id='lpp_add_img_3' name='lpp_add_img_3' value='<?php echo $lpp_add_img_3; ?>' style='width:240px; height:30px; border:2px dashed orange; text-align:center;' placeholder='Thumbnail Max Width : 300px'/>
-          <img src="<?php echo get_post_meta($post->ID,'lpp_add_img_3',true);?>" style='width:250px;height:100px;'>
            <h3 class="lpp_h">
             <input type='text' id='lpp_benefit_2_content_title' name='lpp_benefit_2_content_title' value='<?php echo $lpp_benefit_2_content_title; ?>' style='width:190px; height:30px; border:2px dashed black; text-align:center;' placeholder='Enter benefit title here.'/>
           </h3>
@@ -241,8 +228,6 @@ body{
           </p>
         </div>
         <div id="lpp_benefit_3">
-          <input type='text' id='lpp_add_img_4' name='lpp_add_img_4' value='<?php echo $lpp_add_img_4; ?>' style='width:240px; height:30px; border:2px dashed orange; text-align:center;' placeholder='Leave Empty for no Thumbnail'/>
-          <img src="<?php echo get_post_meta($post->ID,'lpp_add_img_4',true);?>" style='width:250px;height:100px;'>
            <h3 class="lpp_h">
             <input type='text' id='lpp_benefit_3_content_title' name='lpp_benefit_3_content_title' value='<?php echo $lpp_benefit_3_content_title; ?>' style='width:190px; height:30px; border:2px dashed black; text-align:center;' placeholder='Enter benefit title here.'/>
           </h3>
