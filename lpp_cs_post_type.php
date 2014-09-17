@@ -106,6 +106,18 @@ add_action("load-post-new.php","lpp_f_count");
     }
 
 
+    function add_lpp_tabs_to_dropdown( $pages ){
+    $args = array(
+        'post_type' => 'landingpage_f'
+    );
+    $items = get_posts($args);
+    $pages = array_merge($pages, $items);
+
+    return $pages;
+}
+add_filter( 'get_pages', 'add_lpp_tabs_to_dropdown' );
+
+
 
     
 
