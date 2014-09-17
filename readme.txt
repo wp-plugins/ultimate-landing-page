@@ -1,7 +1,7 @@
 ===Ultimate Landing Page===
-Contributors:umarbajwa,websettler
+Contributors: umarbajwa,websettler
 Donate link: http://web-settler.com/
-Tags:page builder,landing pages,subscribe forms,mail chimp,mail chimp form,subscribe landing page,landing page builder,landing pages,landingpage,landingpages,subscribe,email landing page,web-settler,ultimate landing page,parralax,slider,posts,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b test, a b testing, a/b test, a/b testing, analytics, click tracking, coming soon page, conversion pages, cpa, email list, free landing page templates, goal tracking, inbound marketing, inbound now, landing page, landing pages, list building, maintenance page, splash pages, split testing, squeeze page,shortcode,mailchimp
+Tags: page builder,landing pages,subscribe forms,,mail chimp form,subscribe landing page,landing page builder,landing pages,coming soon,landingpage,landingpages,subscribe,email landing page,web-settler,ultimate landing page,posts,slider,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b testing, a/b test, a/b testing, analytics, coming soon page, conversion pages, cpa, email list, free landing page templates, goal tracking,marketing,landing page,landing pages, maintenance page,admin,images,splash pages, split testing, squeeze page,shortcode,mailchimp,plugin,page
 Requires at least:3.2 
 Tested up to: 4.0
 Stable tag:1.1
@@ -29,9 +29,16 @@ With our collection of landing page templates your landing pages will look as go
 
 Ultimate Landing Page Plugin Integrate Beautiful  Mail Chimp Forms  for your marketing and maximize your conversions instantly. Capture leads on your landing page and send them directly to MailChimp.
 
+<strong> Set Landing Page as Front Page/Home Page :</strong>
+Set Landing page as home page or front page to target all the traffic on your site. Or for coming soon pages.Capture your leads and sales from front page.
+
 <strong> Custom CSS/Js :</strong>
 
 If you are a developer or designer and want to tweak design or enhance usability, then there is no need to mess with plugin files because Ultimate Landing Page plugin offers  Custom CSS/JS  feature  and customize whatever you want.
+
+<strong> Coming Soon Pages :</strong>
+
+Create beautiful Coming soon pages easily and publish them immediately,  Or set a schedule   for publishing.
 
 
 
@@ -40,8 +47,6 @@ If you are a developer or designer and want to tweak design or enhance usability
 
 
 == Screenshots ==
-
-
 
 1. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
 2. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
@@ -56,4 +61,10 @@ If you are a developer or designer and want to tweak design or enhance usability
 
 <a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
 
+ == Changelog ==
 
+= V 1.1 =
+
+* Better Design
+* Added Template 1 Benefit thumbnails  
+* Bug Fixes
