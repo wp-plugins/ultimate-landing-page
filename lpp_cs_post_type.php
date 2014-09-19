@@ -24,10 +24,10 @@ function lpp_f_custom_post_type(){
     'labels' => $labels,
     'description' => 'Create Landing Page',
     'public' => true,
+    'menu_position' => 25,
     'supports' => array('title','custom_fields'),
     'has_archive' => true,
     'capability_type' => 'page',
-    'query_var' => 'lpp_f_landing_page',
     'menu_icon' => 'dashicons-welcome-add-page',
     'show_in_menu' => true
     );
