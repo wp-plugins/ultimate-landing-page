@@ -62,28 +62,6 @@ add_action('init','lpp_f_custom_post_type');
  * Typically core only accounts for posts and pages where the slug is /post-name/
  */
 
-function lpp_f_custom_parse_request_tricksy( $query ) {
- 
-    // Only noop the main query
-    if ( ! $query->is_main_query() )
-        return;
- 
-    // Only noop our very specific rewrite rule match
-    if ( 2 != count( $query->query ) || ! isset( $query->query['page'] ) ) {
-        return;
-    }
- 
-    // 'name' will be set if post permalinks are just post_name, otherwise the page rule will match
-    if ( ! empty( $query->query['name'] ) ) {
-        $query->set( 'post_type', array( 'post', 'landingpage_f', 'page' ) );
-    }
-}
-add_action( 'pre_get_posts', 'lpp_f_custom_parse_request_tricksy' );
-
-
-
-
-
 add_action("load-post-new.php","lpp_f_count");
 
     function lpp_f_count( $userid, $post_type = 'landingpage_f' ) {
@@ -105,7 +83,6 @@ add_action("load-post-new.php","lpp_f_count");
 
         }
     }
-
 
     function add_lpp_tabs_to_dropdown( $pages ){
     $args = array(
