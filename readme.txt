@@ -1,7 +1,7 @@
 ===Ultimate Landing Page===
 Contributors: umarbajwa,websettler
 Donate link: http://web-settler.com/
-Tags: page builder,landing pages,subscribe forms,,mail chimp form,subscribe landing page,landing page builder,landing pages,coming soon,landingpage,landingpages,subscribe,email landing page,web-settler,ultimate landing page,posts,slider,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b testing, a/b test, a/b testing, analytics, coming soon page, conversion pages, cpa, email list, free landing page templates, goal tracking,marketing,landing page,landing pages, maintenance page,admin,images,splash pages, split testing, squeeze page,shortcode,mailchimp,plugin,page
+Tags: page builder,landing pages,subscribe forms,,mail chimp form,subscribe landing page,landing page builder,landing pages,coming soon,landingpage,landingpages,subscribe,email landing page,web-settler,ultimate landing page,posts,slider,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b testing, a/b test, a/b testing, analytics,sales funnel,coming soon page, conversion pages, cpa, email list, free landing page templates, goal tracking,marketing,landing page,landing pages, maintenance page,admin,images,splash pages, split testing, squeeze page,shortcode,mailchimp,plugin,page
 Requires at least:3.2 
 Tested up to: 4.0
 Stable tag:1.1
@@ -24,6 +24,10 @@ Our specifically designed templates  Boost your sales and conversions instantly.
 <strong>Templates :</strong>
 
 With our collection of landing page templates your landing pages will look as good as they perform. Designed to maximize your conversions. Our landing page templates offers complete flexibility and are easily customizable.
+
+<strong>Forms :</strong>
+
+With Ulitmate Landing Page plugin you can integrate any WordPress Form Plugin (including : Gravity Forms, Contact Form 7 , Ninja Forms and many more.). Or you can add custom form shortcodes + html forms. 
 
 <strong>MailChimp Forms :</strong>
 
