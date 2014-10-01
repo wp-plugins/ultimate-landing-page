@@ -57,9 +57,10 @@ Set your Landing pages or Coming soon pages as homepage and target all the traff
 
 1. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
 2. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
+3. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
 4. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
-12. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
-7. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
+5. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
+6. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
 
 
 
