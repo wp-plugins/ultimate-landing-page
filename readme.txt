@@ -44,9 +44,7 @@ If you are a developer or designer and want to tweak design or enhance usability
 
 Create beautiful Coming soon pages easily and publish them immediately,  Or set a schedule for publishing.
 
-<strong>Set Landing Pages as Home Page</strong>
 
-Set your Landing pages or Coming soon pages as homepage and target all the traffic directly and increase your conversions/sales.
 
 
 <a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
@@ -57,10 +55,7 @@ Set your Landing pages or Coming soon pages as homepage and target all the traff
 
 1. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
 2. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
-3. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
-4. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
-5. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
-6. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
+
 
 
 
@@ -70,6 +65,7 @@ Set your Landing pages or Coming soon pages as homepage and target all the traff
 * Activate the plugin.
 * Select a template and start editing it.
 * After Publishing your landing page will be ready for traffic.
+* If you encounter 404 page not found error on your landing page reset you Permalinks from dashboard settings.
 
 <a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
 
