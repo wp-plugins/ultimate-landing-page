@@ -9,7 +9,7 @@
       
     // A List Id to run examples against. use lists() to view all
     // Also, login to MC account, go to List, then List Tools, and look for the List ID entry
-    $listId = 'a8986ed734';
+    $listId = '12345667';
     
     // A Campaign Id to run examples against. use campaigns() to view all
     $campaignId = 'YOUR MAILCHIMP CAMPAIGN ID - see campaigns() method';

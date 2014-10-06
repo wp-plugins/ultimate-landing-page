@@ -58,6 +58,7 @@ Create beautiful Coming soon pages easily and publish them immediately,  Or set 
 * Activate the plugin.
 * Select a template and start editing it.
 * After Publishing your landing page will be ready for traffic.
+* If you encounter 404 page not found error on your landing page reset you Permalinks from dashboard settings. 
 
 <a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
 
