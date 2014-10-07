@@ -45,8 +45,6 @@ If you are a developer or designer and want to tweak design or enhance usability
 Create beautiful Coming soon pages easily and publish them immediately,  Or set a schedule for publishing.
 
 
-
-
 <a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
 
 
@@ -66,6 +64,8 @@ Create beautiful Coming soon pages easily and publish them immediately,  Or set 
 * Select a template and start editing it.
 * After Publishing your landing page will be ready for traffic.
 * If you encounter 404 page not found error on your landing page reset you Permalinks from dashboard settings.
+* In case of other issue please post at support forum
+
 
 <a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
 
