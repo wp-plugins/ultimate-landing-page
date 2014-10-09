@@ -48,7 +48,7 @@ function lpp_f_main_front_end_settings($post){
         padding: 10px;
         width: 550px;
         margin: 10px;
-        height: 950px;
+        height: 750px;
 
 
 
