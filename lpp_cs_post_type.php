@@ -40,6 +40,19 @@ function lpp_f_custom_post_type(){
 
 add_action('init','lpp_f_custom_post_type');
 
+
+function lpp_ulp_activate_f() {  
+    lpp_custom_post_type();
+    flush_rewrite_rules();
+}
+ 
+register_activation_hook( __FILE__, 'lpp_ulp_activate_f' );
+ 
+function lpp_ulp_deactivate_f() {
+    flush_rewrite_rules();
+}
+register_deactivation_hook( __FILE__, 'lpp_ulp_deactivate_f' );
+
 //////////// CUSTOM POST TYPE ENDS HERE!!!!! ////////////// /
                                                         // //   / 
                                                             //  //  /
@@ -84,7 +97,7 @@ add_action("load-post-new.php","lpp_f_count");
         }
     }
 
-    function add_lpp_tabs_to_dropdown( $pages ){
+    function add_lpp_tabs_to_dropdown_f( $pages ){
     $args = array(
         'post_type' => 'landingpage_f'
     );
@@ -93,7 +106,7 @@ add_action("load-post-new.php","lpp_f_count");
 
     return $pages;
 }
-add_filter( 'get_pages', 'add_lpp_tabs_to_dropdown' );
+add_filter( 'get_pages', 'add_lpp_tabs_to_dropdown_f' );
 
 
 
