@@ -44,7 +44,7 @@ If you are a developer or designer and want to tweak design or enhance usability
 
 Create beautiful Coming soon pages easily and publish them immediately,  Or set a schedule for publishing.
 
-> There are some features which are not available in free version too access all features Please <a href='http://web-settler.com/ultimate-landing-page/'> <strong>Get Premium Version Click Here</strong> </a>
+> There are some features which are not available in free version to access all features Please <a href='http://web-settler.com/ultimate-landing-page/'> <strong>Get Premium Version Click Here</strong> </a>
 
 
 
