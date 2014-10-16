@@ -1,7 +1,7 @@
 ===Ultimate Landing Page===
 Contributors: umarbajwa,websettler
 Donate link: http://web-settler.com/
-Tags: page builder,landing pages,subscribe forms,,mail chimp form,subscribe landing page,landing page builder,landing pages,coming soon,landingpage,landingpages,subscribe,email landing page,web-settler,ultimate landing page,posts,slider,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b testing, a/b test, a/b testing, analytics,sales funnel,coming soon page, conversion pages, cpa, email list, free landing page templates, goal tracking,marketing,landing page,landing pages, maintenance page,admin,images,splash pages, split testing, squeeze page,shortcode,mailchimp,plugin,page
+Tags: page builder,landing pages,subscribe forms,,mail chimp form,subscribe landing page,landing page builder,landing pages,coming soon,landingpage,landingpages,subscribe,email landing page,web-settler,ultimate landing page,posts,slider,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b testing, a/b test, a/b testing,sales funnel,coming soon page, conversion pages, cpa, email list, free landing page templates, goal tracking,marketing,landing page,landing pages, maintenance page,admin,images,splash pages, split testing, squeeze page,shortcode,mailchimp,plugin,page
 Requires at least:3.2 
 Tested up to: 4.0
 Stable tag:1.1
@@ -43,9 +43,6 @@ If you are a developer or designer and want to tweak design or enhance usability
 <strong> Coming Soon Pages :</strong>
 
 Create beautiful Coming soon pages easily and publish them immediately,  Or set a schedule for publishing.
-
-> There are some features which are not available in free version to access all features Please <a href='http://web-settler.com/ultimate-landing-page/'> <strong>Get Premium Version Click Here</strong> </a>
-
 
 
 == Screenshots ==
