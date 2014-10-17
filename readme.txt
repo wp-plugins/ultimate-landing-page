@@ -8,7 +8,7 @@ Stable tag:1.1
 License:GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create Landing Pages easily  in less than 10 minutes with free Ultimate Landing Page Plugin.Boost your sales and Conversions. 
+Create Landing Pages or Coming Soon Pages easily in minutes with free Ultimate Landing Page Plugin.Boost your sales and Conversions. 
 
 ==Description==
 
@@ -70,7 +70,7 @@ Create beautiful Coming soon pages easily and publish them immediately,  Or set 
 = V 1.1 =
 
 * Better Design
-* Added Template 1 Benefit thumbnails  
+* More Templates  
 * Bug Fixes
 
 
