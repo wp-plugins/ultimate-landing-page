@@ -147,7 +147,9 @@ add_action('add_meta_boxes','lpp_f_main_ui_metabox');
     </p>
 <?php
 
-include ($lpp_fe_template_select);
+if (!empty($lpp_fe_template_select)) {
+  include ($lpp_fe_template_select);
+}
 
 
 
