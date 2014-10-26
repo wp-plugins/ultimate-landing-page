@@ -11,7 +11,8 @@ Donate link: http://web-settler.com/ultimate-landing-page/
 *************
 * Copyright: 2014 http://web-settler.com/
 * Note : License Free to use, Free to modify, Permission required to redistribute.
-* Help : Email : Umar@web-setter.com
+* Help :URL:http://web-settler.com/contact/
+* Email : Umar@web-setter.com
 *************
 */
 include 'lpp_settings.php';
