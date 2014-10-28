@@ -12,7 +12,7 @@
 body{
   max-width:100%;
   max-height: 100%; 
-  background: ;
+  background:none;
   text-align: center;
 }
 #lpp_content{
@@ -32,7 +32,7 @@ body{
 }
 #lpp_center_left{
   width:45%;
-  height:75%;
+  height:60%;
   float: left;
   text-align: center;
 
@@ -45,7 +45,7 @@ body{
 
 #lpp_center_right{
   width:50%;
-  height:75%;
+  height:60%;
   float: right;
   text-align: center;
 
@@ -112,7 +112,7 @@ body{
   display: inline-block;
 }
 #testimonial_text{
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-left: 5px;
 }
 
@@ -170,7 +170,7 @@ body{
 #lpp_f_line,#lpp_f_cta{
 
   width: 95%;
-  height:10%;
+  height:15%;
   display: inline-block;
 
 }
