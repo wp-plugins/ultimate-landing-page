@@ -22,7 +22,7 @@ body{
 #lpp_header{
   text-align: center;
   width: 95%;
-  height: 15%;
+  height: 10%;
   display: inline-block;
 }
 #lpp_center{
@@ -160,7 +160,7 @@ body{
   height:70%;
   float: left;
   text-align: center;
-  margin-left:2%; 
+  margin-left:3%; 
   text-align: center;
 }
 
@@ -246,7 +246,7 @@ body{
           </p>
         </div>
         <div id="lpp_benefit_3">
-          <h2 class="lpp_h">
+          <h2 class="lpp_h" class='lpp_benefit_2_h_'>
             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content_title' , true ); ?>
           </h2>
           <p class="lpp_p" id="benefit_text">

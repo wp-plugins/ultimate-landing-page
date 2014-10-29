@@ -23,6 +23,6 @@ h2{
 
 <div class='wrapper'>
 	<div id='msg'>
-		<h2>You have reached maximum number of Landing Pages To get more Landing Pages Get : <a href="http://web-settler.com/ultimate-landing-page">Premium Version</a></h2>
+		<h2>You have reached maximum number of Landing Pages To get more Landing Pages Visit : <a href="http://web-settler.com/ultimate-landing-page">Premium Version</a></h2>
 	</div>
 </div>
