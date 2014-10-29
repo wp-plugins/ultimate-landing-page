@@ -1,7 +1,7 @@
 ===Ultimate Landing Page===
 Contributors: umarbajwa,websettler
 Donate link: http://web-settler.com/
-Tags: page builder,landing pages,subscribe forms,,mail chimp form,subscribe landing page,landing page builder,landing pages,coming soon,landingpage,landingpages,subscribe,email landing page,ultimate landing page,posts,slider,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b testing, a/b test, a/b testing,sales funnel,coming soon page, conversion pages, email list, free landing page templates, goal tracking,marketing,landing page,landing pages, maintenance page,admin,images,splash pages, split testing, squeeze page,shortcode,mailchimp,plugin,page,sales page builder
+Tags: page builder,landing pages,subscribe forms,mail chimp form,subscribe landing page,landing page builder,landing pages,coming soon,landingpage,landingpages,subscribe,email landing page,ultimate landing page,posts,slider,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b testing, a/b test, a/b testing,sales funnel,coming soon page, conversion pages, email list, free landing page templates, goal tracking,marketing,landing page,landing pages, maintenance page,admin,images,splash pages, split testing, squeeze page,shortcode,mailchimp,plugin,page,sales page builder
 Requires at least:3.2 
 Tested up to: 4.0
 Stable tag:1.1
