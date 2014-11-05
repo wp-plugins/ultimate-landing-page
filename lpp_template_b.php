@@ -160,7 +160,7 @@ body{
   height:70%;
   float: left;
   text-align: center;
-  margin-left:3%; 
+  margin-left:3.4%; 
   text-align: center;
 }
 
@@ -246,7 +246,7 @@ body{
           </p>
         </div>
         <div id="lpp_benefit_3">
-          <h2 class="lpp_h" class='lpp_benefit_2_h_'>
+          <h2 class="lpp_h lpp_benefit_2_h_">
             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content_title' , true ); ?>
           </h2>
           <p class="lpp_p" id="benefit_text">
@@ -261,4 +261,5 @@ body{
 
     </div>
   </body>
+  <article style='display:none;'>This is Ultimate Landing Page plugin created by Umar Bajwa </article>
 </html>

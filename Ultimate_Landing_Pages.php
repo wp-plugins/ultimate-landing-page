@@ -9,9 +9,10 @@ Version: 1.1
 Donate link: http://web-settler.com/ultimate-landing-page/ 
 
 *************
+* Created By : Umar Bajwa
 * Copyright: 2014 http://web-settler.com/
 * Note : License Free to use, Free to modify, Permission required to redistribute.
-* Help :URL:http://web-settler.com/contact/
+* Contact : http://web-settler.com/contact/
 * Email : umar@web-setter.com
 *************
 */
