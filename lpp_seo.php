@@ -11,9 +11,10 @@ function lpp_f_seo_set($post){
 
 	 $lpp_seo_meta_description = get_post_meta($post->ID,'lpp_seo_meta_description',true);
 
-
+// * NONCE to save data to custom post types db.
 	 wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
 	 ?>
+
 		<style type="text/css">
 	.formLayout_2
     {

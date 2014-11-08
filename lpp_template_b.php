@@ -6,7 +6,9 @@
   <style type="text/css">
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
  }
 
 body{
@@ -16,8 +18,8 @@ body{
   text-align: center;
 }
 #lpp_content{
-  min-width:480px;
-  min-height:768px;
+  min-width:485px;
+  min-height:778px;
 }
 #lpp_header{
   text-align: center;
@@ -38,7 +40,7 @@ body{
 
 }
 #lpp_center_left >img{
-  margin-top: 10%;
+  margin-top: 11%;
   height:0%;
 
 }
@@ -239,6 +241,7 @@ body{
         </div>
         <div id="lpp_benefit_2">
           <h2 class="lpp_h">
+            <p style='display:none;'>This is benefit 2</p>
             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_2_content_title' , true ); ?>
           </h2>
           <p class="lpp_p" id="benefit_text">
@@ -247,6 +250,7 @@ body{
         </div>
         <div id="lpp_benefit_3">
           <h2 class="lpp_h lpp_benefit_2_h_">
+            <p style='display:none;'>This is benefit 1</p>
             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content_title' , true ); ?>
           </h2>
           <p class="lpp_p" id="benefit_text">
@@ -255,9 +259,10 @@ body{
         </div>
       </div>
       <div id="lpp_f_line">
+        <p style='display:none;'>This is supporting headline </p>
         <h2 class="lpp_h">Suuporting line  Lorem ipsum dolor sit amet, consectetur adipisicing</h2>
       </div>
-      <div id="lpp_f_cta"><h1>Call To Action</div>
+      <div id="lpp_f_cta"><h1>Call To Action</h1></div>
 
     </div>
   </body>
