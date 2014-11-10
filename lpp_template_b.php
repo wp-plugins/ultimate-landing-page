@@ -182,6 +182,11 @@ body{
 
 
     </style>
+    <meta name='url' value="<?php 
+     echo get_home_url( $blog_id, $path, $scheme );
+
+      ?>">
+     
 </head>
   <body>
 
@@ -243,6 +248,8 @@ body{
           <h2 class="lpp_h">
             <p style='display:none;'>This is benefit 2</p>
             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_2_content_title' , true ); ?>
+             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_5_content_title' , true ); ?>
+
           </h2>
           <p class="lpp_p" id="benefit_text">
             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_2_content' , true ); ?>
@@ -255,6 +262,7 @@ body{
           </h2>
           <p class="lpp_p" id="benefit_text">
             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content' , true ); ?>
+
           </p>
         </div>
       </div>

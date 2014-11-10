@@ -8,13 +8,13 @@ Author URI: http://web-settler.com/contact/
 Version: 1.1
 Donate link: http://web-settler.com/ultimate-landing-page/ 
 
-*************
+*******
 * Created By : Umar Bajwa
 * Copyright: 2014 http://web-settler.com/
 * Note : License Free to use, Free to modify, Permission required to redistribute.
 * Contact : http://web-settler.com/contact/
 * Email : umar@web-setter.com
-*************
+*******
 */
 include 'lpp_settings.php';
 include 'lpp_cs_post_type.php';
