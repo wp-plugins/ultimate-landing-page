@@ -235,6 +235,7 @@ body{
       </div>
       <hr>
       <div id="lpp_benefit_sect">
+        <p style="font-size:11px; margin-left:10%;"><?php echo  get_post_meta( $post->ID , 'lpp_testimonial_right_content_author' , true ); ?></p>
         <div id="lpp_benefit_1">
          <h2 class="lpp_h">
            <?php echo  get_post_meta( $post->ID , 'lpp_benefit_1_content_title' , true ); ?>
@@ -264,6 +265,7 @@ body{
             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content' , true ); ?>
 
           </p>
+          <p style="font-size:11px; margin-left:10%;"><?php echo  get_post_meta( $post->ID , 'lpp_testimonial_right_content_author' , true ); ?></p>
         </div>
       </div>
       <div id="lpp_f_line">
