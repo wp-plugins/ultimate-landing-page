@@ -272,6 +272,10 @@ body{
         <p style='display:none;'>This is supporting headline </p>
         <h2 class="lpp_h">Suuporting line  Lorem ipsum dolor sit amet, consectetur adipisicing</h2>
       </div>
+      <div id="lpp_f_line" style='display:none;'>
+        <p style='display:none;'>This is supporting headline </p>
+        <h2 class="lpp_h">Suuporting line  Lorem ipsum dolor sit amet, consectetur adipisicing</h2>
+      </div>
       <div id="lpp_f_cta"><h1>Call To Action</h1></div>
 
     </div>
