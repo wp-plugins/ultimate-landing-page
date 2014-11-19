@@ -2378,7 +2378,7 @@ class MCAPI {
      * @section Folder  Related
      * @example mcapi_folderAdd.php
      * @example xml-rpc_folderAdd.php
-     *
+     * * List all the folders for a user account
      * @param string $name a unique name for a folder (max 100 bytes)
      * @param string $type optional the type of folder to create - either "campaign" or "autoresponder". Defaults to "campaign"
      * @return int the folder_id of the newly created folder.
@@ -2548,6 +2548,7 @@ class MCAPI {
      * Return the current Chimp Chatter messages for an account.
      *
      * @section Helper
+     * List all the folders for a user account
      * 
      * @return array An array of chatter messages and properties
                 string message The chatter message

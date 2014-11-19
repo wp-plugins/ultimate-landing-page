@@ -14,7 +14,7 @@
     $campaignId = 'YOUR MAILCHIMP CAMPAIGN ID - see campaigns() method';
 
     //some email addresses used in the examples:
-    $my_email = 'umarbajwa@ymail.com';
+    $my_email = 'example@example.com';
     $boss_man_email = 'INVALID@example.com';
 
     //just used in xml-rpc examples

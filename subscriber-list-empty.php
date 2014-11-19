@@ -9,7 +9,7 @@ if ($f !== false) {
 }
 
 else{
-	echo "Some Error Occurred!";
+	echo "Some error occurred while emptying the file!";
 }
 
 
