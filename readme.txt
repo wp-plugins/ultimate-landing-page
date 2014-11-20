@@ -48,8 +48,8 @@ Create beautiful Coming soon pages easily and publish them immediately,  Or set 
 
 == Screenshots ==
 
-1. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
-2. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and more information Click Here</strong> </a>
+1. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and  information Click Here</strong> </a>
+2. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and  information Click Here</strong> </a>
 
 
 
