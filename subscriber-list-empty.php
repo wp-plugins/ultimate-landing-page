@@ -10,6 +10,8 @@ if ($f !== false) {
 
 else{
 	echo "Some error occurred while emptying the file!";
+
+	echo "Try Again!";
 }
 
 
