@@ -64,7 +64,7 @@ Create beautiful Coming soon pages easily and publish them immediately,  Or set 
 * In case of other issue please post at support forum.
 
 
-<a href='http://web-settler.com/ultimate-landing-page/'> <strong>To Get Premium Version Click Here</strong> </a>
+<a href='http://web-settler.com/ultimate-landing-page/'> To Get Premium Version Click Here </a>
 
  == Changelog ==
 
