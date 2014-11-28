@@ -7,6 +7,8 @@ function lpp_f_seo_set($post){
 
 	 $lpp_seo_title = get_post_meta($post->ID,'lpp_seo_title',true);
 
+	 $lpp_seo_site_url = get_post_meta($post->ID,'lpp_seo_site_url',true);
+
 	 $lpp_seo_keywords = get_post_meta($post->ID,'lpp_seo_keywords',true);
 
 	 $lpp_seo_meta_description = get_post_meta($post->ID,'lpp_seo_meta_description',true);
