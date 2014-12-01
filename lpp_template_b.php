@@ -5,12 +5,6 @@
 <head>
   <style type="text/css">
 
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
- }
-
 body{
   max-width:100%;
   max-height: 100%; 

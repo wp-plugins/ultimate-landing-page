@@ -154,6 +154,11 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         <?php checked( "lpp_template_2.php", $lpp_template_select); ?>
         >
 
+        <input style='display:none;' disabled type="radio" id='lpp_select_template2' name='lpp_template_select' value='lpp_template_2.php'
+        <?php checked( "lpp_template_2.php", $lpp_template_select); ?>
+        >
+
+
         <label disabled for='lpp_select_template2'>
             <img src="<?php echo plugins_url('/img/landingpage_template_2.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
