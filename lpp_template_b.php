@@ -205,6 +205,8 @@ body{
             </ul>
 
             <button id="lpp_cta1"><?php echo  get_post_meta( $post->ID , 'lpp_main_cta' , true ); ?></button>
+
+            <button id="lpp_cta2" style="display:none;" > <?php echo  get_post_meta( $post->ID , 'lpp_main_cta' , true ); ?></button>
           
         </div>
       </div>
