@@ -206,7 +206,6 @@ body{
 
             <button id="lpp_cta1"><?php echo  get_post_meta( $post->ID , 'lpp_main_cta' , true ); ?></button>
 
-            <button id="lpp_cta2" style="display:none;" > <?php echo  get_post_meta( $post->ID , 'lpp_main_cta' , true ); ?></button>
           
         </div>
       </div>
@@ -252,10 +251,7 @@ body{
           </p>
         </div>
         <div id="lpp_benefit_3">
-          <h2 class="lpp_h lpp_benefit_2_h_">
-            <p style='display:none;'>This is benefit 1</p>
-            <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content_title' , true ); ?>
-          </h2>
+       
           <p class="lpp_p" id="benefit_text">
             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content' , true ); ?>
 
@@ -266,7 +262,6 @@ body{
       <div id="lpp_f_line">
 
       </div>
-      <div id="lpp_f_cta"><h1>Call To Action</h1></div>
 
     </div>
   </body>
