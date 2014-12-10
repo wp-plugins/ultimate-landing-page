@@ -70,13 +70,13 @@ body{
 
 }
 #lpp_cta1{
-  margin-top: 7%;
+  margin-top: 5%;
   width: 70%;
   height: 15%;
   border:none;
   border-bottom: 9px solid #13846c;
 
-  font-size: 2em;
+  font-size: 1.23em;
   font-family:verdana;
   background: #1BBC9B;
   color: #fff;
@@ -102,13 +102,13 @@ body{
 
 
 #lpp_testimonial{
-  width: 95%;
+  width: 92%;
   height:15%;
   margin-top: 30px;
   display: inline-block;
 }
 #testimonial_text{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-left: 5px;
 }
 
@@ -265,5 +265,5 @@ body{
 
     </div>
   </body>
-  <article style='display:none;'>This is Ultimate Landing Page plugin created by Umar Bajwa </article>
+  
 </html>
