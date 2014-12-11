@@ -1,4 +1,5 @@
 <?php
+//Deleting all data stored in subscribers list
 
 $f = @fopen("lpp_subscribers_list.csv", "r+");
 if ($f !== false) {
@@ -11,7 +12,7 @@ if ($f !== false) {
 else{
 	echo "Some error occurred while emptying the file!";
 
-	echo "Try Again!";
+	echo "Please Try Again!";
 }
 
 
