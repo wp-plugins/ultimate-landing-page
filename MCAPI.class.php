@@ -20,14 +20,10 @@ class MCAPI {
      */
     var $chunkSize = 8192;
     
-    /**
-     * Cache the user api_key so we only have to log in once per client instantiation
-     */
+   
     var $api_key;
 
-    /**
-     * Cache the user api_key so we only have to log in once per client instantiation
-     */
+   
     var $secure = false;
     
     /**
@@ -58,16 +54,7 @@ class MCAPI {
         }
     }
     
-    /**
-     * Unschedule a campaign that is scheduled to be sent in the future
-     *
-     * @section Campaign  Related
-     * @example mcapi_campaignUnschedule.php
-     * @example xml-rpc_campaignUnschedule.php
-     *
-     * @param string $cid the id of the campaign to unschedule
-     * @return boolean true on success
-     */
+
     function campaignUnschedule($cid) {
         $params = array();
         $params["cid"] = $cid;
