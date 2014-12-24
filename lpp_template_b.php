@@ -13,7 +13,7 @@ body{
 }
 #lpp_content{
   min-width:485px;
-  min-height:778px;
+  min-height:780px;
 }
 #lpp_header{
   text-align: center;
@@ -56,7 +56,7 @@ body{
 }
 .lpp_p{
   color: #333333; 
-  line-height: 1.5; 
+  line-height: 1.6; 
   font-size: 1.125rem; 
   font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
@@ -203,6 +203,8 @@ body{
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_2' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_3' , true ); ?></li>
              <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_4' , true ); ?></li>
+              <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_5' , true ); ?></li>
+               <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_6' , true ); ?></li>
             </ul>
 
             <button id="lpp_cta1"><?php echo  get_post_meta( $post->ID , 'lpp_main_cta' , true ); ?></button>

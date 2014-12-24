@@ -56,18 +56,18 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
     {
 
         
-        padding: 10px;
+        padding: 11px;
         width: 450px;
         margin: 10px;
         font-size: 20px;
         font-weight:100;
-        font-family: verdana;
+        font-family: sans-serif;
     }
     
     .formLayout_s_l label 
     {
         display: block;
-        margin-bottom: 30px;
+        margin-bottom: 29px;
         margin-top: 30px;
     }
     .formLayout_s_l input{
@@ -102,7 +102,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
 
   }
   #pr_msg_link{
-    font-size:26px; font-family:sans-serif; font-weight:100;
+    font-size:25px; font-family:sans-serif; font-weight:100;
   }
 
 </style>
@@ -143,6 +143,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
         >
 
         <label for='lpp_select_template7'>
+            <img src="<?php echo plugins_url('/img/landingpage_template_7.png',__FILE__); ?>" style='width:200px;height:200px;' >
             <img src="<?php echo plugins_url('/img/landingpage_template_7.png',__FILE__); ?>" style='width:200px;height:200px;' >
         </label>
     </div>
