@@ -46,6 +46,9 @@ If you are a developer or designer and want to tweak design or enhance usability
 Create beautiful Coming soon pages easily and publish them immediately,  Or set a schedule for publishing.
 
 
+Note : This is free version of the plugin some features will may be unavailable.
+
+
 == Screenshots ==
 
 1. <a href='http://web-settler.com/ultimate-landing-page/'> <strong>For more Screenshots and  information Click Here</strong> </a>
