@@ -74,7 +74,7 @@ body{
   width: 70%;
   height: 15%;
   border:none;
-  border-bottom: 9px solid #13846c;
+  border-bottom: 7px solid #13846c;
 
   font-size: 1.23em;
   font-family:verdana;
@@ -108,7 +108,7 @@ body{
   display: inline-block;
 }
 #testimonial_text{
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   margin-left: 5px;
 }
 
@@ -254,7 +254,6 @@ body{
           </p>
         </div>
         <div id="lpp_benefit_3">
-        <?php echo  get_post_meta( $post->ID , 'lpp_benefit_2_content_title' , true ); ?>
           <p class="lpp_p" id="benefit_text">
 
           </p>

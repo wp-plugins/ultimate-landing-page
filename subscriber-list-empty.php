@@ -1,6 +1,7 @@
 <?php
 //Deleting all data stored in subscribers list
 
+// Opening file
 $f = @fopen("lpp_subscribers_list.csv", "r+");
 if ($f !== false) {
     ftruncate($f, 0);
