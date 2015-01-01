@@ -35,7 +35,7 @@ body{
 }
 #lpp_center_left >img{
   margin-top: 11%;
-  height:0%;
+  height:30%;
 
 }
 
@@ -156,7 +156,7 @@ body{
   height:70%;
   float: left;
   text-align: center;
-  margin-left:3.4%; 
+  margin-left:3%; 
   text-align: center;
 }
 
