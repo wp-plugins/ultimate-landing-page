@@ -257,7 +257,6 @@ body{
           <p class="lpp_p" id="benefit_text">
 
           </p>
-          <p style="font-size:11px; margin-left:10%;"><?php echo  get_post_meta( $post->ID , 'lpp_testimonial_right_content_author' , true ); ?></p>
         </div>
       </div>
       <div id="lpp_f_line">
