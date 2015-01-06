@@ -12,7 +12,7 @@ body{
   text-align: center;
 }
 #lpp_content{
-  min-width:485px;
+  min-width:480px;
   min-height:780px;
 }
 #lpp_header{
@@ -204,7 +204,6 @@ body{
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_3' , true ); ?></li>
              <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_4' , true ); ?></li>
               <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_5' , true ); ?></li>
-               <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_6' , true ); ?></li>
             </ul>
 
             <button id="lpp_cta1"><?php echo  get_post_meta( $post->ID , 'lpp_main_cta' , true ); ?></button>
@@ -233,7 +232,7 @@ body{
       </div>
       <hr>
       <div id="lpp_benefit_sect">
-        <p style="font-size:11px; margin-left:10%;"><?php echo  get_post_meta( $post->ID , 'lpp_testimonial_right_content_author' , true ); ?></p>
+        <p style="font-size:12px; margin-left:10%;"><?php echo  get_post_meta( $post->ID , 'lpp_testimonial_right_content_author' , true ); ?></p>
         <div id="lpp_benefit_1">
          <h2 class="lpp_h">
            <?php echo  get_post_meta( $post->ID , 'lpp_benefit_1_content_title' , true ); ?>
