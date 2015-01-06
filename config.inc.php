@@ -1,6 +1,5 @@
 <?php
     //API Key - see http://admin.mailchimp.com/account/api
-    //$apikey = 'Your Api Key';
     
     
     
