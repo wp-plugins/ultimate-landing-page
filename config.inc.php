@@ -1,5 +1,5 @@
 <?php
-    //API Key - see http://admin.mailchimp.com/account/api
+    //API Key - see http://admin.mailchimp.com/account/api/
     
     
     
