@@ -82,9 +82,7 @@ class MCAPI {
     }
 
     /**
-     * Schedule a campaign to be sent in batches sometime in the future. Only valid for "regular" campaigns
      *
-     * @section Campaign  Related
      *
      * @param string $cid the id of the campaign to schedule
      * @param string $schedule_time the time to schedule the campaign.
