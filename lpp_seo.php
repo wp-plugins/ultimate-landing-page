@@ -15,7 +15,7 @@ function lpp_f_seo_set($post){
 
 
 
-// * NONCE to save data to custom post types db.
+// * NONCE to save data to custom post types db
 	 wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
 	 ?>
 

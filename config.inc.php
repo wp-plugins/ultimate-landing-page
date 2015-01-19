@@ -14,7 +14,6 @@
     //some email addresses used in the examples:
     $boss_man_email = 'example@example.com';
 
-    //just used in xml-rpc examples
     $apiUrl = 'http://api.mailchimp.com/1.3/';
     
 ?>
