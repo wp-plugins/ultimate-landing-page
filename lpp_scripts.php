@@ -3,6 +3,7 @@
 
 
 function lpp_f_admin_scripts_add() {
+	// Adding scripts for admin view only
 	$screen = get_current_screen();
 	if($screen->post_type === 'landingpage_f') 
 	wp_enqueue_script('lpp_admin_banner_js',plugins_url('/js/lpp_admin_bann.js',__FILE__));

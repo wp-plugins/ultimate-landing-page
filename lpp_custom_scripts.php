@@ -4,7 +4,7 @@
 
 function lpp_f_custom_css($post){
 
-
+	// letting users to add custom js code and css styling
 	$lpp_custom_styling = get_post_meta($post->ID,'lpp_custom_styling',true);
 	$lpp_custom_js = get_post_meta($post->ID,'lpp_custom_js',true);
 
