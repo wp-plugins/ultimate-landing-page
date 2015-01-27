@@ -13,7 +13,7 @@ body{
 }
 #lpp_content{
   min-width:480px;
-  min-height:780px;
+  min-height:780.3px;
 }
 #lpp_header{
   text-align: center;
