@@ -108,7 +108,7 @@ body{
   display: inline-block;
 }
 #testimonial_text{
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   margin-left: 5px;
 }
 
@@ -204,7 +204,6 @@ body{
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_3' , true ); ?></li>
              <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_4' , true ); ?></li>
              <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_5' , true ); ?></li>
-             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_6' , true ); ?></li>
             </ul>
 
             <button id="lpp_cta1"><?php echo  get_post_meta( $post->ID , 'lpp_main_cta' , true ); ?></button>
@@ -250,7 +249,6 @@ body{
 
           </h2>
           <p class="lpp_p" id="benefit_text">
-            <?php echo  get_post_meta( $post->ID , 'lpp_benefit_2_content' , true ); ?>
             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_2_content' , true ); ?>
           </p>
         </div>
