@@ -12,7 +12,7 @@ $merge_vars = array('FNAME'=>$_POST['lpp_name'],'LNAME'=>'');
 
 
 // By default this sends a confirmation email - you will not see new members
-// until the link contained in it is clicked!.
+// until the link contained in it is clicked!
 $retval = $api->listSubscribe( $_POST['lpp_ed'],$_POST['lpp_email'], $merge_vars );
 
 if ($api->errorCode){

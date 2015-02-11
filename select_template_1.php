@@ -14,7 +14,7 @@ add_filter( 'single_template', 'lpp_f_main_front_html' );
 
 
 
-///////////////////////////////////////////////////
+/////////////////////////////////////////////
 
 function lpp_f_landing_page_template_select($post){
 
