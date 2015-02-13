@@ -14,7 +14,7 @@ add_filter( 'single_template', 'lpp_f_main_front_html' );
 
 
 
-/////////////////////////////////////////////
+//////////////////////////////
 
 function lpp_f_landing_page_template_select($post){
 
@@ -98,7 +98,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
     height: 40px;
     margin-top: 8px;
     margin-right: 50px;
-    font-size: 19px;
+    font-size: 18px;
 
   }
   #pr_msg_link{
@@ -107,7 +107,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
 
 </style>
 <div id='lpp_wrapper' class='formLayout_s_l'>
-    <h2>Select a Template and click Update</h2>
+    <h2>Select a template and click update</h2>
     <div id='lpp_left'>
             
         Template -1
