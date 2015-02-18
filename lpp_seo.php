@@ -78,6 +78,8 @@ function lpp_f_seo_set($post){
 		<br>
         <input type='text' name='lpp_seo_keywords' placeholder='SEO Keywords seperated by commas:' value='<?php echo $lpp_seo_keywords; ?>'>
 
+        <input type='hidden' name='lpp_seo_keywords' placeholder='SEO Keywords seperated by commas:' value='<?php echo $lpp_seo_keywords; ?>'>
+
 	</div>
 
 
