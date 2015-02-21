@@ -218,7 +218,6 @@ body{
            </p>
            <p style="font-size:11px;margin-left:10%;">
              <?php echo  get_post_meta( $post->ID , 'lpp_testimonial_left_content_author' , true ); ?>
-              <?php //echo  get_post_meta( $post->ID , 'lpp_main_content' , true ); ?>
            </p>
 
         </div>
