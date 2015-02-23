@@ -11,7 +11,6 @@ class MCAPI {
     var $apiUrl;
     
     /**
-     * Default to a 300 second timeout on server calls
      */
     var $timeout = 300; 
     
