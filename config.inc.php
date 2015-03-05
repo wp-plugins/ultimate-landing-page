@@ -11,8 +11,6 @@
     // A Campaign Id to run examples against. use campaigns() to view all
     $campaignId = 'YOUR MAILCHIMP CAMPAIGN ID - see campaigns() method';
 
-    //some email addresses used in the examples:
-    $boss_man_email = 'example@example.com';
 
     $apiUrl = 'http://api.mailchimp.com/1.3/';
     
