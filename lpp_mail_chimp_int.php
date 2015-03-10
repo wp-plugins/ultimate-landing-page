@@ -11,7 +11,7 @@ function lpp_f_mail_chimp($post){
 
 	?>
 	<style type="text/css">
-	#lpp_mailchimp_apikey,#lpp_mailchimp_listid{
+	#lppmail, #lpp_mailchimp_apikey,#lpp_mailchimp_listid{
 		width:400px;
 		height: 50px;
 	}
