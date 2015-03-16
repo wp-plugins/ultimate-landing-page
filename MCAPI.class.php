@@ -2,7 +2,6 @@
 
 class MCAPI {
     var $version = "1.3";
-    var $errorMessage;
     var $errorCode;
     
     /**
@@ -285,7 +284,6 @@ class MCAPI {
      * Create a new draft campaign to send. You <strong>can not</strong> have more than 32,000 campaigns in your account.
      *
      * @section Campaign  Related
-     * @example mcapi_campaignCreate.php
      * @example xml-rpc_campaignCreate.php
      * @example xml-rpc_campaignCreateABSplit.php
      * @example xml-rpc_campaignCreateRss.php
@@ -2821,7 +2819,6 @@ class MCAPI {
 		$params["apikey"] = $this->api_key;
 
         $this->errorMessage = "";
-        $this->errorCode = "";
         $sep_changed = false;
         //sigh, apparently some distribs change this to &amp; by default
         if (ini_get("arg_separator.output")!="&"){
