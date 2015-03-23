@@ -16,7 +16,6 @@ $merge_vars = array('FNAME'=>$_POST['name'],'LNAME'=>'');
 $retval = $api->listSubscribe( $_POST['lpp_ed'],$_POST['lpp_email'], $merge_vars );
 
 if ($api->errorCode){
-	echo "Unable to load listSubscribe()!\n";
 	echo "\tCode=".$api->errorCode."\n";
 	echo "\tMsg=".$api->errorMessage."\n";
 } else {
