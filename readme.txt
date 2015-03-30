@@ -4,7 +4,7 @@ Donate link: http://web-settler.com/
 Tags: page builder,landing pages,subscribe forms,,mail chimp form,subscribe landing page,landing page builder,landing pages,coming soon,landingpage,landingpages,subscribe,email landing page,web-settler,ultimate landing page,posts,slider,pages,seo,page templates,Ultimate Landing Page builder,Ultimate Page builder,post builder,post promoter,sales landing page,sales page,subscribe forms, a b testing, a/b test, a/b testing, analytics, coming soon page, conversion pages, cpa, email list, free landing page templates, goal tracking,marketing,landing page,landing pages, maintenance page,admin,images,splash pages, split testing, squeeze page,shortcode,mailchimp,plugin,page
 Requires at least:3.2 
 Tested up to: 4.0
-Stable tag:1.2
+Stable tag:1.3
 License:GPLv2 
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
