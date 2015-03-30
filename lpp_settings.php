@@ -27,7 +27,7 @@ add_action('add_meta_boxes','lpp_f_main_ui_metabox');
 
     //add_meta_box('lpp_custom_css' ,'Custom  CSS/JS','lpp_f_custom_css', 'Landingpage_f','normal','low');
 
-    //add_meta_box('lpp_seo_set' ,'Landing Page SEO','lpp_f_seo_set', 'Landingpage_f','normal','low');
+    add_meta_box('lpp_seo_set' ,'Landing Page SEO','lpp_f_seo_set', 'Landingpage_f','normal','low');
 
   }
  
@@ -45,7 +45,6 @@ add_action('add_meta_boxes','lpp_f_main_ui_metabox');
     ///////  MAIN SETTINGS var assign BOX Starts HERE!!! /////////////
 
     $lpp_fe_template_select = get_post_meta($post->ID,'lpp_fe_template_select',true);
-
     $lpp_main_h1 = get_post_meta($post->ID,'lpp_main_h1',true);
     $lpp_sub_h2 = get_post_meta($post->ID,'lpp_sub_h2',true);
     $lpp_main_content = get_post_meta($post->ID,'lpp_main_content',true);
