@@ -103,7 +103,7 @@ body{
 #lpp_testimonial{
   width: 92%;
   height:15%;
-  margin-top: 30px;
+  margin-top: 30.1px;
   display: inline-block;
 }
 #testimonial_text{
@@ -155,7 +155,7 @@ body{
   height:70%;
   float: left;
   text-align: center;
-  margin-left:3%; 
+  margin-left:3.2%; 
   text-align: center;
 }
 
@@ -253,7 +253,7 @@ body{
           </p>
         </div>
         <div id="lpp_benefit_3">
-
+             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content' , true ); ?>
         </div>
       </div>
       <div id="lpp_f_line">
