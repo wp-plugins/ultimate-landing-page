@@ -11,7 +11,7 @@ class MCAPI {
     
     /**
      */
-    var $timeout = 300; 
+    var $timeout = 200; 
     
     /**
      * Default to a 8K chunk size
