@@ -7,7 +7,7 @@ require_once 'MCAPI.class.php';
 
 $api = new MCAPI($_POST['lpp_ki']);
 
-$merge_vars = array('FNAME'=>$_POST['llp_name'],'LNAME'=>$_POST['lpp_fname']);
+$merge_vars = array('FNAME'=>$_POST['lpp_name'],'LNAME'=>$_POST['lpp_fname']);
 
 
 
