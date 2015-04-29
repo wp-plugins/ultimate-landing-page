@@ -73,7 +73,6 @@ function lpp_f_seo_set($post){
 
 		<input type='text' name='lpp_seo_keywords' placeholder='SEO Keywords seperated by commas:' value='<?php echo $lpp_seo_keywords; ?>'>
 		<br>
-		<input type='text' name='lpp_seo_title' placeholder='SEO Title :' value='<?php echo $lpp_seo_title; ?>'>
 
 		<textarea type='text' style='height:200px; width:350px; float:left;' name='lpp_seo_meta_description' placeholder='Meta Description :' value='<?php echo $lpp_seo_meta_description; ?>'><?php echo $lpp_seo_meta_description; ?></textarea>
 		<br>

@@ -10,6 +10,7 @@
     
     // A Campaign Id to run examples against. use campaigns() to view all
     $campaignId = 'YOUR MAILCHIMP CAMPAIGN ID - see campaigns() method';
+    $listId = 'Your MailChimp List ID';
 
 
     $apiUrl = 'http://api.mailchimp.com/1.3/';
