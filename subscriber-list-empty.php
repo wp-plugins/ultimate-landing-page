@@ -10,7 +10,7 @@ if ($f !== false) {
 }
 
 else{
-	echo "Some error occurred while emptying the file!";
+	echo " Error occurred while deleting the data! \n";
 
 	echo "Please Try Again!";
 }
