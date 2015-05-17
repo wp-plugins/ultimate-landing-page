@@ -70,12 +70,6 @@ If you are a developer or designer and want to tweak design or enhance usability
 
 <a href='http://web-settler.com/ultimate-landing-page/'> To Get Premium Version Click Here </a>
 
- == Changelog ==
 
-= V 1.1 =
-
-* Better Design
-* More Templates  
-* Bug Fixes
 
 
