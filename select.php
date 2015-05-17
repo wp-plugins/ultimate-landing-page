@@ -1,1 +1,1 @@
-<h2>Select a Template to edit and click Update.</h2>
+<h2>Select a template to edit and click Update.</h2>
