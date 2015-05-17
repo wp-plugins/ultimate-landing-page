@@ -1,7 +1,7 @@
 <?php
 
 require_once 'MCAPI.class.php';
-//require_once 'config.inc.php'; //contains apikey
+require_once 'config.inc.php'; //contains apikey
 
 
 
