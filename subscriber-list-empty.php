@@ -6,7 +6,7 @@ if ($f !== false) {
     ftruncate($f, 0);
     fclose($f);
 
-    echo ' Your List have been  Successfully deleted!';
+    echo ' All data has been cleared!';
 }
 
 else{
