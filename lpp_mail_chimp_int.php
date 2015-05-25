@@ -20,8 +20,6 @@ function lpp_f_mail_chimp($post){
 
 	<input type='text' name='lpp_mailchimp_listid' id='lpp_mailchimp_listid' placeholder='Your Mailchimp List ID' value='<?php echo $lpp_mailchimp_listid; ?>'>
 
-	<input type='text' name='lpp_mailchimp_id' id='lpp_mailchimp_id' placeholder='Your Mailchimp ID' value='<?php echo $lpp_mailchimpid; ?>'>
-
 
 	<?php
 
