@@ -6,7 +6,7 @@
 
       
     // A List Id to run examples against. use lists() to view all.
-    //$listId = 'Your MailChimp List ID';
+    $listId = 'Your MailChimp List ID';
     
     // A Campaign Id to run examples against. use campaigns() to view all
     $campaignId = 'YOUR MAILCHIMP CAMPAIGN ID - see campaigns() method';
