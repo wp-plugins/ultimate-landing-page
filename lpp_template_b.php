@@ -215,9 +215,6 @@ body{
         <div id="lpp_testimonial_left">
           <p class="lpp_p" id="testimonial_text">
             <?php echo  get_post_meta( $post->ID , 'lpp_testimonial_left_content' , true ); ?>
-            <p class="lpp_p" id="benefit_text">
-            <?php echo  get_post_meta( $post->ID , 'lpp_benefit_2_content' , true ); ?>
-          </p>
            </p>
            <p style="font-size:11px;margin-left:10%;">
              <?php echo  get_post_meta( $post->ID , 'lpp_testimonial_left_content_author' , true ); ?>
@@ -228,6 +225,7 @@ body{
           <p class="lpp_p" id="testimonial_text">
             <?php echo  get_post_meta( $post->ID , 'lpp_testimonial_right_content' , true ); ?>
           </p>
+          <p style="font-size:11px; margin-left:10%;"><?php echo  get_post_meta( $post->ID , 'lpp_testimonial_right_content_author' , true ); ?></p>
         </div>
         
       </div>
