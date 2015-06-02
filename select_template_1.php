@@ -83,7 +83,7 @@ wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
     {
         text-align: left;
         display: block;
-        font-size: 20px;
+        font-size: 19px;
         font-family: sans-serif;
         font-weight: 100;
     }
