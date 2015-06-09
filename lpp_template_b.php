@@ -47,7 +47,7 @@ body{
 }
 #lpp_text{
   margin-top: 10%;
-  margin-right: 5%;
+  margin-right: 5.2%;
   color: #333333; 
   line-height: 1.5; 
   font-size: 1.12rem; 
@@ -135,7 +135,7 @@ body{
   height:70%;
   float: left;
   text-align: center;
-  margin-left:2%; 
+  margin-left:2.2%; 
   text-align: center;
 
 }
@@ -201,6 +201,8 @@ body{
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_1' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_2' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_3' , true ); ?></li>
+            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_4' , true ); ?></li>
+            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_5' , true ); ?></li>
 
             </ul>
 
