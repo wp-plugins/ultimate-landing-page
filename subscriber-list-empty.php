@@ -6,7 +6,7 @@ if ($f !== false) {
     ftruncate($f, 0);
     fclose($f);
 
-    echo ' All data has been cleared!';
+    echo ' All data has been deleted!';
 }
 
 else{
