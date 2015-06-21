@@ -26,7 +26,7 @@ function lpp_f_custom_post_type(){
     'description' => 'Create Landing Page',
     'public' => true,
     'exclude_from_search' => false,
-    'menu_position' => 25,
+    'menu_position' => 5,
     'supports' => array('title','custom_fields'),
     'has_archive' => true,
     'capability_type' => 'page',
