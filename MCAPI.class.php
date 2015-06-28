@@ -383,7 +383,6 @@ class MCAPI {
     function campaignCreate($type, $options, $content, $segment_opts=NULL, $type_opts=NULL) {
         $params = array();
         $params["type"] = $type;
-        $params["sort"] = $sort;
         $params["options"] = $options;
         $params["content"] = $content;
         $params["segment_opts"] = $segment_opts;
@@ -591,10 +590,9 @@ class MCAPI {
                     int recipients_click unique clicks seen during the hour
                     
      */
-    function campaignStats($cid,$sort) {
+    function campaignStats($cid) {
         $params = array();
         $params["cid"] = $cid;
-        $params["sort"] = $sort;
         return $this->callServer("campaignStats", $params);
     }
 

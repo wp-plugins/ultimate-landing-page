@@ -51,13 +51,13 @@ body{
   color: #333333; 
   line-height: 1.5; 
   font-size: 1.12rem; 
-  font-family:  Helvetica, Arial, sans-serif;
+  font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .lpp_p{
   color: #333333; 
   line-height: 1.5; 
   font-size: 1.1rem; 
-  font-family:  Arial, sans-serif;
+  font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 }
 
@@ -202,7 +202,7 @@ body{
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_2' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_3' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_4' , true ); ?></li>
-           
+            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_5' , true ); ?></li>
 
 
 
