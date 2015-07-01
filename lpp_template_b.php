@@ -51,7 +51,7 @@ body{
   color: #333333; 
   line-height: 1.5; 
   font-size: 1.12rem; 
-  font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'proxima-nova', Helvetica, Arial, sans-serif;
 }
 .lpp_p{
   color: #333333; 
@@ -201,8 +201,6 @@ body{
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_1' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_2' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_3' , true ); ?></li>
-            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_4' , true ); ?></li>
-            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_5' , true ); ?></li>
 
 
 
@@ -257,11 +255,7 @@ body{
           </p>
         </div>
         <div id="lpp_benefit_3">
-         <ul id="lpp_feature" class="lpp_p">
-            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_1' , true ); ?></li>
-
-            </ul>
-
+         
         </div>
       </div>
       <div id="lpp_f_line">
