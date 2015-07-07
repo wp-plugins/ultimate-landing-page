@@ -201,8 +201,6 @@ body{
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_1' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_2' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_3' , true ); ?></li>
-            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_4' , true ); ?></li>
-            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_5' , true ); ?></li>
 
 
 
@@ -236,9 +234,7 @@ body{
       <div id="lpp_benefit_sect">
         <p style="font-size:12px; margin-left:10%;"><?php echo  get_post_meta( $post->ID , 'lpp_testimonial_right_content_author' , true ); ?></p>
         <div id="lpp_benefit_1">
-         <h2 class="lpp_h">
-           <?php echo  get_post_meta( $post->ID , 'lpp_benefit_1_content_title' , true ); ?>
-         </h2>
+         
          <p class="lpp_p" id="benefit_text">
           </p>
          <p>
@@ -247,11 +243,7 @@ body{
           
         </div>
         <div id="lpp_benefit_2">
-          <h2 class="lpp_h">
-            <p style='display:none;'>This is benefit 2</p>
-            <?php echo  get_post_meta( $post->ID , 'lpp_benefit_2_content_title' , true ); ?>
-
-          </h2>
+         
           <p class="lpp_p" id="benefit_text">
             <?php echo  get_post_meta( $post->ID , 'lpp_benefit_2_content' , true ); ?>
           </p>
