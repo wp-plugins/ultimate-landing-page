@@ -201,6 +201,8 @@ body{
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_1' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_2' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_3' , true ); ?></li>
+            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_4' , true ); ?></li>
+            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_5' , true ); ?></li>
 
 
 
@@ -255,7 +257,10 @@ body{
           </p>
         </div>
         <div id="lpp_benefit_3">
-            <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content' , true ); ?>
+         <ul id="lpp_feature" class="lpp_p">
+            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_1' , true ); ?></li>
+
+            </ul>
 
         </div>
       </div>
