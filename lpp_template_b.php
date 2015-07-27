@@ -255,10 +255,15 @@ body{
           </p>
         </div>
         <div id="lpp_benefit_3">
-         <ul id="lpp_feature" class="lpp_p">
-            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_1' , true ); ?></li>
+        <h2 class="lpp_h">
+            <p style='display:none;'>This is benefit 3</p>
+            <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content_title' , true ); ?>
 
-            </ul>
+          </h3>
+          <p class="lpp_p" id="benefit_text">
+            <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content' , true ); ?>
+          </p>
+        
 
         </div>
       </div>
