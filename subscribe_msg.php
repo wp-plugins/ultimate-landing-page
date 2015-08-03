@@ -23,7 +23,7 @@ h2{
 
 <div class='wrapper'>
 	<div id='msg'>
-		<h2>Thank You for Subscribing - Look for the confirmation Email in your inbox - <br> <a href="javascript:javascript:history.go(-1)"> OR  Click here to go back to previous page</a></h2>
+		<h2>Thanks for Subscribing - Confirm your Email Address - <br> <a href="javascript:javascript:history.go(-1)"> OR  Click here to go back to previous page</a></h2>
 	</div>
 	
 	
