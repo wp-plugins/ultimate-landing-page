@@ -256,10 +256,10 @@ body{
           </p>
         </div>
         <div id="lpp_benefit_3">
-         <p class="lpp_p" id="benefit_text">
-            <?php echo  get_post_meta( $post->ID , 'lpp_benefit_3_content' , true ); ?>
-          </p>
+         <ul id="lpp_feature" class="lpp_p">
+            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_1' , true ); ?></li>
 
+            </ul>
 
         </div>
       </div>
