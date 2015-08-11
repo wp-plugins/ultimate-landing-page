@@ -202,6 +202,7 @@ body{
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_2' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_3' , true ); ?></li>
             <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_4' , true ); ?></li>
+            <li><?php echo  get_post_meta( $post->ID , 'lpp_feature_5' , true ); ?></li>
 
 
 

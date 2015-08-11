@@ -6,11 +6,11 @@ if ($f !== false) {
     ftruncate($f, 0);
     fclose($f);
 
-    echo ' All emails has been deleted!';
+    echo ' All data has been deleted!';
 }
 
 else{
-	echo " Error occurred while deleting the emails! \n";
+	echo " Error occurred while deleting the data! \n";
 
 	echo "Please Try Again!";
 }
