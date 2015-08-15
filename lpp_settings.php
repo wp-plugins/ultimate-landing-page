@@ -28,6 +28,7 @@ add_action('add_meta_boxes','lpp_f_main_ui_metabox');
     //add_meta_box('lpp_custom_css' ,'Custom  CSS/JS','lpp_f_custom_css', 'Landingpage_f','normal','low');
 
     add_meta_box('lpp_f_seo_set' ,'Landing Page SEO','lpp_f_seo_set', 'Landingpage_f','normal','low');
+    add_meta_box('lpp_premium_ver' ,'Get More Awesome Features','lpp_premium_ver', 'Landingpage_f','side','high');
 
   }
  
@@ -466,6 +467,7 @@ include 'select_template.php';
 include 'lpp_mail_chimp_int.php';
 
 include 'lpp_seo.php';
+include 'lpp_premium_ver.php';
 
 
 
